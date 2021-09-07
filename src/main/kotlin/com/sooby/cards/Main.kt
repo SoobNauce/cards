@@ -5,7 +5,8 @@ import com.sooby.cards.eights.Eights
 
 @Suppress("unused", "FunctionName", "LocalVariableName")
 object TestFunctions {
-    private const val playerCount = 3
+    private const val basicPlayers = 2
+    private const val randomPlayers = 2
     private fun showAllHands(g: Eights.Game){
         val players = g.players + g.winners + listOfNotNull(g.loser)
         println("[HANDS]")
@@ -20,8 +21,14 @@ object TestFunctions {
         println("[PLAYERS SUMMARY]\n${g.playersSummary()}")
         showAllHands(g)
     }
+    private fun buildPlayers(): List<Eights.Player> =
+        (1..basicPlayers).map{
+            Eights.BasicAIPlayer("Basic AI $it")
+        } + (1..randomPlayers).map{
+            Eights.RandomAIPlayer("Random AI $it")
+        }
     private fun newGame(): Eights.Game{
-        val players = (1..playerCount).map{Eights.BasicAIPlayer("AI $it")}
+        val players = buildPlayers()
         return Eights.Game(players)
     }
     fun SetUpGame(){

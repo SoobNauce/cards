@@ -1,4 +1,4 @@
-@file:Suppress("MemberVisibilityCanBePrivate", "RedundantVisibilityModifier", "unused")
+@file:Suppress("MemberVisibilityCanBePrivate", "RedundantVisibilityModifier", "unused", "UNUSED_PARAMETER")
 
 package com.sooby.cards.eights
 import com.sooby.cards.Cards.*
@@ -66,6 +66,24 @@ class Eights {
                     else -> c.toString()
                 }
             }.joinToString(", ")
+        fun normalHand(): List<Card> = hand.filter{
+            !StaticRules.wildValues.contains(it.value)
+        }
+        fun specialHand(): List<Card> = hand.filter{
+            StaticRules.wildValues.contains(it.value)
+        }
+
+        /**
+         * Finds the card (by exact equality) in the player's hand.
+         * We don't need search-by-value because we have other ways
+         * (filter) of searching hand for a given card.
+         */
+        fun findCard(c: Card): Card? = this.hand.firstOrNull{
+            it === c
+        }
+
+        fun searchAndRemove(c: Card): Card? =
+            findCard(c)?.also { this.hand.remove(it) }
 
         /**
          * Every player knows how many cards every other player is holding.
@@ -112,12 +130,6 @@ class Eights {
 
     }*/
     class BasicAIPlayer(name: String): Player(name) {
-        fun normalHand(): List<Card> = hand.filter{
-            !StaticRules.wildValues.contains(it.value)
-        }
-        fun specialHand(): List<Card> = hand.filter{
-            StaticRules.wildValues.contains(it.value)
-        }
         /**
          * Organizes cards in hand by suit.
          */
@@ -168,17 +180,6 @@ class Eights {
             }
         }
 
-        /**
-         * Finds the card (by exact equality) in the player's hand.
-         * We don't need search by value because we have other ways
-         * (filter) of searching hand for a given card.
-         */
-        fun findCard(c: Card): Card? = this.hand.firstOrNull{
-            it === c
-        }
-
-        fun searchAndRemove(c: Card): Card? =
-            findCard(c)?.also { this.hand.remove(it) }
         // Override functions from Player
         /**
          * Basic AI doesn't care what other players have.
@@ -216,26 +217,59 @@ class Eights {
             }
             yield(bestCardOfSuit(lastSuit))
             yield(specialHand().firstOrNull())
-        }.firstOrNull{it != null}.also {
-            if(it != null){
-                require(searchAndRemove(it) != null){
-                    "[$name]: A card was selected, but I couldn't" +
-                    "remove it from my hand."
-                }
-            }
-        }
+        }.firstOrNull{it != null}
         override fun play(
             lastCard: Card,
             lastSuit: Suit,
             lastValue: Value
         ): Attempt? {
-            val c = selectCard(lastCard, lastSuit, lastValue)
+            val c = selectCard(lastCard, lastSuit, lastValue).also {
+                if(it != null){
+                    require(searchAndRemove(it) != null){
+                        "[$name]: A card ($it) was selected, but I couldn't" +
+                        "remove it from my hand."
+                    }
+                }
+            }
             return if(c == null){
                 null
             }else if(StaticRules.wildValues.contains(c.value)){
                 Attempt(c, declareSuit(lastCard, lastSuit, lastValue))
             }else{
                 Attempt(c, null)
+            }
+        }
+    }
+    class RandomAIPlayer(name: String): Player(name) {
+        fun mySuits(): List<Suit> =
+            normalHand().map{it.suit}.distinct()
+        fun myValues(): List<Value> =
+            normalHand().map{it.value}.distinct()
+        fun validCards(lastCard: Card, lastSuit: Suit, lastValue: Value): List<Card> =
+            specialHand() + normalHand().filter{
+                (it.suit == lastSuit) or (it.value == lastValue)
+            }
+        override fun declareSuit(): Suit = mySuits().random()
+        override fun declareSuit(lastCard: Card, lastSuit: Suit, lastValue: Value): Suit =
+            declareSuit()
+
+        override fun selectCard(lastCard: Card, lastSuit: Suit, lastValue: Value): Card? =
+            validCards(lastCard, lastSuit, lastValue).randomOrNull()
+
+        override fun play(lastCard: Card, lastSuit: Suit, lastValue: Value): Attempt? {
+            val result = selectCard(lastCard, lastSuit, lastValue).also {
+                // Logical || short circuits ("or" does not)
+                require((it == null) || (searchAndRemove(it) != null)) {
+                    "[$name]: A card ($it) was selected, but I couldn't" +
+                            "remove it from my hand."
+                }
+            }
+            return if(result == null){
+                null
+            }else if(StaticRules.wildValues.contains(result.value)){
+                Attempt(result, declareSuit())
+            }else{
+                Attempt(result, null)
             }
         }
     }
