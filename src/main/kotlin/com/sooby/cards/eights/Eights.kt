@@ -1,3 +1,5 @@
+@file:Suppress("MemberVisibilityCanBePrivate", "RedundantVisibilityModifier", "unused")
+
 package com.sooby.cards.eights
 import com.sooby.cards.Cards.*
 import com.sooby.cards.CanSummarize
@@ -12,14 +14,14 @@ class Eights {
          * reversing direction (ace),
          * or skipping the next player (queen)
         */
-        var specialValues = wildValues + listOf(
-            Value.QUEEN, Value.ACE
-        )
+        // QUEEN and ACE are special values, but dissimilar enough
+        // that AI needs to be smart enough to handle them without help
+        // from StaticRules.
         fun fullDeck() = CardsCompanion.deckWithJokers()
         /** There is no formal comparison on cards in this game.
          * This is only for displaying a player's hand.
          */
-        fun cardKey(c: Card): Int = fullDeck().indexOfFirst {it: Card ->
+        fun cardKey(c: Card): Int = fullDeck().indexOfFirst {
             (it.value == c.value) and (it.suit == c.suit)
         }
     }
@@ -40,7 +42,7 @@ class Eights {
         val value: Value = card.value
         override fun toString() =
             if(StaticRules.wildValues.contains(card.value)){
-                "${card} ($suit)"
+                "$card ($suit)"
             }else{card.toString()}
     }
     abstract class Player(val name: String){
@@ -57,10 +59,10 @@ class Eights {
          * Describes cards for the benefit of a human player.
          */
         fun showHand(): String =
-            hand.sortedBy(Eights.StaticRules::cardKey).mapIndexed { i: Int, c: Card ->
+            hand.sortedBy(StaticRules::cardKey).mapIndexed { i: Int, c: Card ->
                 when (i) {
                     0 -> c.toString()
-                    hand.size - 1 -> "and ${c.toString()}"
+                    hand.size - 1 -> "and $c"
                     else -> c.toString()
                 }
             }.joinToString(", ")
@@ -104,40 +106,41 @@ class Eights {
             lastCard: Card,
             lastSuit: Suit,
             lastValue: Value
-        ): Eights.Attempt?
+        ): Attempt?
     }
     /*class HumanPlayer(name: String): Player(name) {
 
     }*/
     class BasicAIPlayer(name: String): Player(name) {
         fun normalHand(): List<Card> = hand.filter{
-            !Eights.StaticRules.wildValues.contains(it.value)
+            !StaticRules.wildValues.contains(it.value)
         }
         fun specialHand(): List<Card> = hand.filter{
-            Eights.StaticRules.wildValues.contains(it.value)
+            StaticRules.wildValues.contains(it.value)
         }
         /**
          * Organizes cards in hand by suit.
          */
         fun handBySuit(): Map<Suit, List<Card>> {
-            var result: MutableMap<Suit, List<Card>> = mutableMapOf()
+            val result: MutableMap<Suit, List<Card>> = mutableMapOf()
             for(card_e in normalHand()){
-                var curCards: List<Card> = result.getOrDefault(card_e.suit, listOf())
+                val curCards: List<Card> = result.getOrDefault(card_e.suit, listOf())
                 result[card_e.suit] = curCards.plus(card_e)
             }
             return result
         }
         fun handByValue(): Map<Value, List<Card>>{
-            var result: MutableMap<Value, List<Card>> = mutableMapOf()
+            val result: MutableMap<Value, List<Card>> = mutableMapOf()
             for(card_e in normalHand()){
-                var curCards: List<Card> = result.getOrDefault(card_e.value, listOf())
+                val curCards: List<Card> = result.getOrDefault(card_e.value, listOf())
                 result[card_e.value] = curCards.plus(card_e)
             }
             return result
         }
+        @Suppress("unused")
         fun bestValue(): Value{
-            var hValues = handByValue()
-            var result: Value? = hValues.maxByOrNull {
+            val hValues = handByValue()
+            val result: Value? = hValues.maxByOrNull {
                 it.value.size
             }?.key
             require(result != null){
@@ -164,14 +167,16 @@ class Eights {
                 hSuits.getOrDefault(it.suit, listOf()).size
             }
         }
-        fun findCard(s: Suit, v: Value): Card? = this.hand.firstOrNull{
-            (it.suit == s) and (it.value == v)
-        }
+
+        /**
+         * Finds the card (by exact equality) in the player's hand.
+         * We don't need search by value because we have other ways
+         * (filter) of searching hand for a given card.
+         */
         fun findCard(c: Card): Card? = this.hand.firstOrNull{
-            (it.suit == c.suit) and (it.value == c.value)
+            it === c
         }
-        fun searchAndRemove(s: Suit, v: Value): Card? =
-            findCard(s, v)?.also { this.hand.remove(it) }
+
         fun searchAndRemove(c: Card): Card? =
             findCard(c)?.also { this.hand.remove(it) }
         // Override functions from Player
@@ -211,11 +216,11 @@ class Eights {
             }
             yield(bestCardOfSuit(lastSuit))
             yield(specialHand().firstOrNull())
-        }.firstOrNull {it != null}.also {
+        }.firstOrNull{it != null}.also {
             if(it != null){
                 require(searchAndRemove(it) != null){
-                    "[$name]: A card was found, but I couldn't find it in my hand " +
-                    "to remove it."
+                    "[$name]: A card was selected, but I couldn't" +
+                    "remove it from my hand."
                 }
             }
         }
@@ -223,14 +228,14 @@ class Eights {
             lastCard: Card,
             lastSuit: Suit,
             lastValue: Value
-        ): Eights.Attempt? {
+        ): Attempt? {
             val c = selectCard(lastCard, lastSuit, lastValue)
             return if(c == null){
                 null
-            }else if(Eights.StaticRules.wildValues.contains(c.value)){
-                Eights.Attempt(c, declareSuit(lastCard, lastSuit, lastValue))
+            }else if(StaticRules.wildValues.contains(c.value)){
+                Attempt(c, declareSuit(lastCard, lastSuit, lastValue))
             }else{
-                Eights.Attempt(c, null)
+                Attempt(c, null)
             }
         }
     }
@@ -274,7 +279,7 @@ class Eights {
             }
         fun nextSeveral(i: Int, depth: Int): List<Int> {
             var c = i
-            var result: MutableList<Int> = mutableListOf(c)
+            val result: MutableList<Int> = mutableListOf(c)
             (0..depth).forEach{_ ->
                 c = nextFromIndex(c)
                 result.add(c)
@@ -340,9 +345,20 @@ class Eights {
         }
         fun dealSeveral(player: Player, n: Int) {
             detailedHistory.add("Dealt $n cards to ${player.name}.")
-            (1..n).forEach{
+            (1..n).forEach{_ ->
                 // No error handling here because we want the error to cascade.
                 dealOne(player, suppressHistory = true)
+            }
+        }
+        fun safeDeal(player: Player, n: Int = 1) {
+            try{
+                if(n == 1){
+                    dealOne(player)
+                }else{
+                    dealSeveral(player, n)
+                }
+            }catch(e: IllegalArgumentException){
+                detailedHistory.add("Skipping this draw due to insufficient cards.")
             }
         }
 
@@ -351,9 +367,10 @@ class Eights {
         init{
             detailedHistory.add("Starting hand ($startingCards cards) dealt to players.")
             for(player in players){
+                // Failure to deal at this stage is a consistency error.
                 dealSeveral(player, startingCards)
             }
-            var firstPlay = deck.removeFirst()
+            val firstPlay = deck.removeFirst()
             detailedHistory.add("First card played from deck ($firstPlay).")
             history.addFirst(firstPlay)
             // ARBITRARY RULES DECISION: If the first card is a joker,
@@ -399,7 +416,7 @@ class Eights {
         /**
          * Update state to reflect the next player.
          */
-        fun advancePlayer(skip: Boolean = false): Unit{
+        fun advancePlayer(skip: Boolean = false){
             // Find the next player who has not won
             val np = nextNonWinner()
             // Remove all winners
@@ -437,10 +454,10 @@ class Eights {
                     )
                 }
                 else -> {
-                    if(skip){
-                        cPlayerIndex = nextFromIndex(players.indexOf(np))
+                    cPlayerIndex = if(skip){
+                        nextFromIndex(players.indexOf(np))
                     }else {
-                        cPlayerIndex = players.indexOf(np)
+                        players.indexOf(np)
                     }
                 }
             }
@@ -471,19 +488,22 @@ class Eights {
                 lastSuit = a.suit
                 lastValue = a.value
                 history.addFirst(a.card)
-                if(p.hand.size == 0){
-
-                }
                 detailedHistory.add(
                     "${p.name} played ${a.card}. Next card must be $lastSuit or $lastValue."
                 )
+                if(p.hand.size == 0){
+                    detailedHistory.add(
+                        "${p.name} has zero cards and will be declared a winner."
+                    )
+                }
             } else {
                 // We know `a.card` is not null
                 // We need to give it back to `p`.
                 p.accept(a.card)
                 detailedHistory.add(
                     "Returned ${a.card} to ${p.name}. Penalty of 1 card applied.")
-                dealOne(p)
+                // If a penalty cannot be applied, just skip the deal.
+                safeDeal(p)
             }
         }
 
@@ -496,7 +516,10 @@ class Eights {
             detailedHistory.add(
                 "${p.name} has chosen to draw. Penalty of 1 card applied."
             )
-            dealOne(p)
+            // We don't need to worry about infinite loops.
+            // If a player tries to draw and there aren't enough cards
+            // even after reshuffling, they simply lose their turn.
+            safeDeal(p)
         }
 
         fun removeLoser(p: Player){
@@ -530,14 +553,21 @@ class Eights {
             }else{
                 acceptNull(p)
             }
-            if(a?.card?.value == Value.QUEEN){
-                advancePlayer(skip=true)
-            }else if(a?.card?.value == Value.ACE){
-                reversed = !reversed
-                advancePlayer(skip=(players.size == 2))
-            }else{
-                advancePlayer(skip=false)
+            val skip = when (a?.card?.value) {
+                Value.QUEEN -> {
+                    true
+                }
+                Value.ACE -> {
+                    reversed = !reversed
+                    (players.size == 2)
+                }
+                else -> {
+                    false
+                }
             }
+            // Winners are checked in advancePlayer
+            // which should always be called here.
+            advancePlayer(skip)
         }
         fun runAll(){
             while(players.size > 1){
@@ -564,7 +594,7 @@ class Eights {
         override fun playerNames(): List<String> =
             (players.map{it.name}
                     + winners.map{it.name}
-                    + (loser?.let{listOf(it.name)} ?: listOf<String>())
+                    + listOfNotNull(loser?.name)
             )
 
         override fun historySummary(depth: Int) = detailedHistory.takeLast(depth)
