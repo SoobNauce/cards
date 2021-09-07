@@ -18,7 +18,7 @@ class Cards {
         SEVEN, EIGHT, NINE, TEN,
         JACK, QUEEN, KING, JOKER
     }
-    data class Card(val suit: Suit, val value: Value){
+    class Card(val suit: Suit, val value: Value){
         override fun toString(): String =
             if(this.value == Value.JOKER){
                 when(this.suit.color){
@@ -29,9 +29,6 @@ class Cards {
             }else{
                 "${this.value} OF ${this.suit}"
             }
-        override fun equals(other: Any?): Boolean{
-            return (other === this)
-        }
     }
     // Card to card comparison is not defined in Cards but is rather defined within each game.
     companion object {
