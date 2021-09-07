@@ -5,24 +5,22 @@ import com.sooby.cards.eights.Eights
 
 @Suppress("unused", "FunctionName", "LocalVariableName")
 object TestFunctions {
-    private const val basicPlayers = 25
-    private const val randomPlayers = 25
+    private const val basicPlayers = 2
+    private const val randomPlayers = 2
     private const val shufflePlayers = false
-    private fun showAllHands(g: Eights.Game){
+    private fun showAllHands(g: Eights.Game): String{
         val players = g.players + g.winners + listOfNotNull(g.loser)
-        println("[HANDS]")
-        println(players.joinToString("\n"){
+        return "[HANDS]\n" + players.joinToString("\n"){
             "${it.name}: ${it.showHand()}"
-        })
+            }
     }
-    private fun showPostgameSummary(g: Eights.Game){
-        println("\n[GAME SUMMARY]")
-        println("[EVENT LOG]\n${g.detailedHistory.joinToString("\n")}")
-        println("[GAME STATE]\n${g.nonPlayerSummary()}")
-        println("[NEXT 20 PLAYERS]\n${g.predictNextPlayers(20)}")
-        println("[PLAYERS SUMMARY]\n${g.playersSummary()}")
+    private fun showPostgameSummary(g: Eights.Game): String =
+        "\n[GAME SUMMARY]\n" +
+        "[EVENT LOG]\n${g.detailedHistory.joinToString("\n")}\n" +
+        "[GAME STATE]\n${g.nonPlayerSummary()}\n" +
+        "[NEXT 20 PLAYERS]\n${g.predictNextPlayers(20)}\n" +
+        "[PLAYERS SUMMARY]\n${g.playersSummary()}\n" +
         showAllHands(g)
-    }
     private fun buildPlayers(): List<Eights.Player> =
         (1..basicPlayers).map{
             Eights.BasicAIPlayer("Basic AI $it")
@@ -39,7 +37,7 @@ object TestFunctions {
     }
     fun SetUpGame(){
         val g = newGame()
-        showPostgameSummary(g)
+        println(showPostgameSummary(g))
     }
     fun AITurns(n: Int){
         val AI_1 = Eights.BasicAIPlayer("AI 1")
@@ -52,7 +50,7 @@ object TestFunctions {
         }catch(e: Exception){
             println(e)
         }
-        showPostgameSummary(g)
+        println(showPostgameSummary(g))
     }
     fun CompleteGame() {
         val g = newGame().also {
@@ -62,7 +60,7 @@ object TestFunctions {
                 println(e)
             }
         }
-        showPostgameSummary(g)
+        println(showPostgameSummary(g))
     }
     fun TryErrors(n: Int) {
         var error = false
@@ -79,11 +77,11 @@ object TestFunctions {
         if(!error){
             println("No errors received.")
         }else{
-            showPostgameSummary(g)
+            println(showPostgameSummary(g))
         }
     }
 }
 
 fun main(){
-    TestFunctions.TryErrors(100)
+    TestFunctions.CompleteGame()
 }

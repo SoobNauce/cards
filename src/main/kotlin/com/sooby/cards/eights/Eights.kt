@@ -8,7 +8,7 @@ import com.sooby.cards.Cards.Companion as CardsCompanion
 class Eights {
     object StaticRules {
         /** Wild values require a suit declaration */
-        var wildValues = listOf(Value.EIGHT, Value.JOKER)
+        val wildValues = listOf(Value.EIGHT, Value.JOKER)
         /** Special values require some special handling
          * such as a suit declaration (wild),
          * reversing direction (ace),
@@ -18,6 +18,7 @@ class Eights {
         // that AI needs to be smart enough to handle them without help
         // from StaticRules.
         fun fullDeck() = CardsCompanion.deckWithJokers()
+        val playersPerDeck = 6
         /** There is no formal comparison on cards in this game.
          * This is only for displaying a player's hand.
          */
@@ -329,7 +330,7 @@ class Eights {
          * Top (first) , ... , Bottom (last)
          * Cards are dealt from the top of the deck (first).
          */
-        val nDecks = (players.size / 5) + 1
+        val nDecks = (players.size / StaticRules.playersPerDeck) + 1
         var deck = ArrayDeque<Card>().also{
             (1..nDecks).forEach{_ ->
                 it.addAll(StaticRules.fullDeck())
