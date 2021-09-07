@@ -5,8 +5,9 @@ import com.sooby.cards.eights.Eights
 
 @Suppress("unused", "FunctionName", "LocalVariableName")
 object TestFunctions {
-    private const val basicPlayers = 2
-    private const val randomPlayers = 2
+    private const val basicPlayers = 25
+    private const val randomPlayers = 25
+    private const val shufflePlayers = false
     private fun showAllHands(g: Eights.Game){
         val players = g.players + g.winners + listOfNotNull(g.loser)
         println("[HANDS]")
@@ -18,6 +19,7 @@ object TestFunctions {
         println("\n[GAME SUMMARY]")
         println("[EVENT LOG]\n${g.detailedHistory.joinToString("\n")}")
         println("[GAME STATE]\n${g.nonPlayerSummary()}")
+        println("[NEXT 20 PLAYERS]\n${g.predictNextPlayers(20)}")
         println("[PLAYERS SUMMARY]\n${g.playersSummary()}")
         showAllHands(g)
     }
@@ -28,7 +30,11 @@ object TestFunctions {
             Eights.RandomAIPlayer("Random AI $it")
         }
     private fun newGame(): Eights.Game{
-        val players = buildPlayers()
+        val players = if(shufflePlayers){
+            buildPlayers().shuffled()
+        }else{
+            buildPlayers()
+        }
         return Eights.Game(players)
     }
     fun SetUpGame(){
@@ -58,7 +64,7 @@ object TestFunctions {
         }
         showPostgameSummary(g)
     }
-    fun FishForErrors(n: Int) {
+    fun TryErrors(n: Int) {
         var error = false
         var g = newGame()
         try {
@@ -79,5 +85,5 @@ object TestFunctions {
 }
 
 fun main(){
-    TestFunctions.CompleteGame()
+    TestFunctions.TryErrors(100)
 }

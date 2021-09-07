@@ -2,1434 +2,1865 @@
 [EVENT LOG]
 Game began.
 Starting hand (5 cards) dealt to players.
-Dealt 5 cards to AI 1.
-Dealt 5 cards to AI 2.
-Dealt 5 cards to AI 3.
-Dealt 5 cards to AI 4.
-Dealt 5 cards to AI 5.
-Dealt 5 cards to AI 6.
-Dealt 5 cards to AI 7.
-Dealt 5 cards to AI 8.
-Dealt 5 cards to AI 9.
-Dealt 5 cards to AI 10.
-Dealt 5 cards to AI 11.
-Dealt 5 cards to AI 12.
-Dealt 5 cards to AI 13.
-Dealt 5 cards to AI 14.
-Dealt 5 cards to AI 15.
-Dealt 5 cards to AI 16.
-Dealt 5 cards to AI 17.
-Dealt 5 cards to AI 18.
-Dealt 5 cards to AI 19.
-Dealt 5 cards to AI 20.
-Dealt 5 cards to AI 21.
-Dealt 5 cards to AI 22.
-Dealt 5 cards to AI 23.
-Dealt 5 cards to AI 24.
-Dealt 5 cards to AI 25.
-Dealt 5 cards to AI 26.
-Dealt 5 cards to AI 27.
-Dealt 5 cards to AI 28.
-Dealt 5 cards to AI 29.
-Dealt 5 cards to AI 30.
-Dealt 5 cards to AI 31.
-Dealt 5 cards to AI 32.
-Dealt 5 cards to AI 33.
-Dealt 5 cards to AI 34.
-Dealt 5 cards to AI 35.
-Dealt 5 cards to AI 36.
-Dealt 5 cards to AI 37.
-Dealt 5 cards to AI 38.
-Dealt 5 cards to AI 39.
-Dealt 5 cards to AI 40.
-Dealt 5 cards to AI 41.
-Dealt 5 cards to AI 42.
-Dealt 5 cards to AI 43.
-Dealt 5 cards to AI 44.
-Dealt 5 cards to AI 45.
-Dealt 5 cards to AI 46.
-Dealt 5 cards to AI 47.
-Dealt 5 cards to AI 48.
-Dealt 5 cards to AI 49.
-Dealt 5 cards to AI 50.
+Dealt 5 cards to Basic AI 1.
+Dealt 5 cards to Basic AI 2.
+Dealt 5 cards to Basic AI 3.
+Dealt 5 cards to Basic AI 4.
+Dealt 5 cards to Basic AI 5.
+Dealt 5 cards to Basic AI 6.
+Dealt 5 cards to Basic AI 7.
+Dealt 5 cards to Basic AI 8.
+Dealt 5 cards to Basic AI 9.
+Dealt 5 cards to Basic AI 10.
+Dealt 5 cards to Basic AI 11.
+Dealt 5 cards to Basic AI 12.
+Dealt 5 cards to Basic AI 13.
+Dealt 5 cards to Basic AI 14.
+Dealt 5 cards to Basic AI 15.
+Dealt 5 cards to Basic AI 16.
+Dealt 5 cards to Basic AI 17.
+Dealt 5 cards to Basic AI 18.
+Dealt 5 cards to Basic AI 19.
+Dealt 5 cards to Basic AI 20.
+Dealt 5 cards to Basic AI 21.
+Dealt 5 cards to Basic AI 22.
+Dealt 5 cards to Basic AI 23.
+Dealt 5 cards to Basic AI 24.
+Dealt 5 cards to Basic AI 25.
+Dealt 5 cards to Random AI 1.
+Dealt 5 cards to Random AI 2.
+Dealt 5 cards to Random AI 3.
+Dealt 5 cards to Random AI 4.
+Dealt 5 cards to Random AI 5.
+Dealt 5 cards to Random AI 6.
+Dealt 5 cards to Random AI 7.
+Dealt 5 cards to Random AI 8.
+Dealt 5 cards to Random AI 9.
+Dealt 5 cards to Random AI 10.
+Dealt 5 cards to Random AI 11.
+Dealt 5 cards to Random AI 12.
+Dealt 5 cards to Random AI 13.
+Dealt 5 cards to Random AI 14.
+Dealt 5 cards to Random AI 15.
+Dealt 5 cards to Random AI 16.
+Dealt 5 cards to Random AI 17.
+Dealt 5 cards to Random AI 18.
+Dealt 5 cards to Random AI 19.
+Dealt 5 cards to Random AI 20.
+Dealt 5 cards to Random AI 21.
+Dealt 5 cards to Random AI 22.
+Dealt 5 cards to Random AI 23.
+Dealt 5 cards to Random AI 24.
+Dealt 5 cards to Random AI 25.
 First card played from deck (SEVEN OF HEARTS).
-AI 1 played BLACK JOKER. Next card must be CLUBS or JOKER.
-AI 2 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 3 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 5 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 6 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 8 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 9 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 10 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 11 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 12 played RED JOKER. Next card must be CLUBS or JOKER.
-AI 13 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 14 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 17 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 19 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 21 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 22 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 25 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 27 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 28 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 29 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
-AI 30 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 32 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 33 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 35 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 36 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 38 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 40 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
-AI 41 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 44 played KING OF SPADES. Next card must be SPADES or KING.
-AI 45 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 45.
-AI 46 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 47 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 48 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 49 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 1 played RED JOKER. Next card must be CLUBS or JOKER.
-AI 2 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 3 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 4 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
-AI 5 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 6 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 8 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 13 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 14 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 17 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 18 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
-AI 19 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 21 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 22 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 25 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 27 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 29 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 29.
-AI 30 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 32 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 33 played KING OF SPADES. Next card must be SPADES or KING.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 35 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 35.
-AI 36 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 37 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 38 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 41 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 43 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 45 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 46 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 46.
-AI 47 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 48 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 49 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 1 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 1.
-AI 2 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 3 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 5 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 6 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 8 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 played BLACK JOKER. Next card must be SPADES or JOKER.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 14 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 14.
-AI 15 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 16 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 18 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 18.
-AI 19 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 19.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 21 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 21.
-AI 22 played BLACK JOKER. Next card must be SPADES or JOKER.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 26 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 27 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 29 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 30 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 31 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 32 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 32.
-AI 33 played BLACK JOKER. Next card must be CLUBS or JOKER.
-AI 34 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 35 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 36 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 36.
-AI 37 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 37.
-AI 38 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 41 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 44 played BLACK JOKER. Next card must be CLUBS or JOKER.
-AI 45 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 46 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 49 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 1 played BLACK JOKER. Next card must be CLUBS or JOKER.
-AI 2 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 3 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 5 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 5.
-AI 6 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 6.
-AI 7 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 6 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 7 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 8 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 11 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 14 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 14.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 18 played EIGHT OF CLUBS. Next card must be HEARTS or EIGHT.
-AI 19 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 20 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 21 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 22 played KING OF SPADES. Next card must be SPADES or KING.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 25 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 27 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 28 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 27 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 27 has won the game and will be removed.
-AI 26 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 25 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 26 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 28 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 29 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 30 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 32 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 32.
-AI 33 played RED JOKER. Next card must be CLUBS or JOKER.
-AI 34 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 35 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 36 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 36.
-AI 37 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 38 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 39 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 41 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 39 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 40 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 41 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 41.
-AI 42 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 43 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 44 played RED JOKER. Next card must be CLUBS or JOKER.
-AI 45 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 46 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 48 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 49 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 50 played KING OF SPADES. Next card must be SPADES or KING.
-AI 1 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 1.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 3 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 3 has won the game and will be removed.
-AI 4 played RED JOKER. Next card must be DIAMONDS or JOKER.
-AI 5 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 6 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 7 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 8 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 8 has won the game and will be removed.
-AI 9 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 12 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 13 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 15 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 16 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 17 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 18 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 19 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 21 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 22 played RED JOKER. Next card must be HEARTS or JOKER.
-AI 22 has won the game and will be removed.
-AI 23 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 24 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 26 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 29 played EIGHT OF SPADES. Next card must be HEARTS or EIGHT.
-AI 30 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 30.
-AI 31 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 32 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 35 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 36 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 37 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 37.
-AI 38 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 38.
-AI 39 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 40 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 41 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 44 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 44.
-AI 45 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 45.
-AI 46 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 1 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 2 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 5 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-AI 6 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 6.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 14 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 15 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 16 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 17 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 18 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 19 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 21 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 21.
-AI 23 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 26 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 29 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 30 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 31 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 32 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 35 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 35.
-AI 36 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 37 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 38 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 39 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 41 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 41.
-AI 42 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 43 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 44 played KING OF SPADES. Next card must be SPADES or KING.
-AI 45 played BLACK JOKER. Next card must be CLUBS or JOKER.
-AI 46 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 48 played RED JOKER. Next card must be DIAMONDS or JOKER.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 1 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 1.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 4 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 5 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 5 has won the game and will be removed.
-AI 6 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 6.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 12 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 13 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 14 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 18 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 18.
-AI 19 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 19 has won the game and will be removed.
-AI 20 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 21 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 23 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 21 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 21.
-AI 20 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 21 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 25 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 26 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 28 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 23 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 21 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 20 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 18 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 17 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 16 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 15 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 14 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 14.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 11 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 10 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 12 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 11 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 14 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 9 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 10 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 11 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 12 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 13 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 14 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 14.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 18 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 20 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 21 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 21 has won the game and will be removed.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 25 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 26 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 29 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 29.
-AI 30 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 30.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 32 played EIGHT OF HEARTS. Next card must be SPADES or EIGHT.
-AI 33 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 35 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 36 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 36.
-AI 37 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 38 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 38 has won the game and will be removed.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 41 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 41.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 44 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 44.
-AI 45 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 45.
-AI 46 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 46 has won the game and will be removed.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 49 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 48 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 47 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 45 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 44 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 45 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 47 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 48 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 49 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 50 played EIGHT OF DIAMONDS. Next card must be HEARTS or EIGHT.
-AI 1 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 1.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 6 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 7 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 9 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 10 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 11 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 12 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 13 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 14 played EIGHT OF SPADES. Next card must be CLUBS or EIGHT.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 18 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 18.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 23 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 24 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 25 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 29 played KING OF SPADES. Next card must be SPADES or KING.
-AI 30 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 29 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 29.
-AI 28 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 23 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 20 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 18 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 17 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 18 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 18.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 24.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 28 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 29 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 30 played BLACK JOKER. Next card must be SPADES or JOKER.
-AI 30 has won the game and will be removed.
-AI 31 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 32 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 35 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 35.
-AI 36 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 36.
-AI 37 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 37.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 41 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 42 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 43 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 45 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 1 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 49 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 50 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 1 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 2 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 4 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 6 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 7 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 9 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 10 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 11 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 12 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 13 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 14 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 15 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 16 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 17 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 18 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 20 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 23 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 24 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 25 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 29 played EIGHT OF DIAMONDS. Next card must be HEARTS or EIGHT.
-AI 29 has won the game and will be removed.
-AI 31 played RED JOKER. Next card must be SPADES or JOKER.
-AI 32 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 32 has won the game and will be removed.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 35 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 36 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 37 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 37.
-AI 39 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 40 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 41 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 41.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 44 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 44.
-AI 45 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 45.
-AI 47 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 48 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 1 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 1.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 4 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 6 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 6 has won the game and will be removed.
-AI 7 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 11 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 11.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 15 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 14 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 12 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 11 played KING OF SPADES. Next card must be SPADES or KING.
-AI 10 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 9 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 1 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 2 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 1 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 49 played BLACK JOKER. Next card must be SPADES or JOKER.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 45 played KING OF SPADES. Next card must be SPADES or KING.
-AI 44 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 42 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 41 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 40 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 39 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 37 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 36 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 35 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 34 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 33 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 34 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 33 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 34 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 35 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 35.
-AI 36 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
-AI 37 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 41 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 42 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 43 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 44 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 45 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 45 has won the game and will be removed.
-AI 47 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 48 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 1 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 2 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 4 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 2 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
-AI 1 played RED JOKER. Next card must be CLUBS or JOKER.
-AI 1 has won the game and will be removed.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 44 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 44 has won the game and will be removed.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 42 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 41 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 41 has won the game and will be removed.
-AI 40 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 40.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 37 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 36 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 36.
-AI 35 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 34 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 33 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 31 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 28 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 25 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 25.
-AI 24 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 18 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 18 has won the game and will be removed.
-AI 16 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 15 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 14 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 14.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 12 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 11 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 11 has won the game and will be removed.
-AI 10 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 9 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 50 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 49 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 50 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 7 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 12 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 13 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 14 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 20 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 25 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 26 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 28 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 31 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 35 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 35 has won the game and will be removed.
-AI 37 played EIGHT OF SPADES. Next card must be DIAMONDS or EIGHT.
-AI 39 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 40 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 37 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 37 has won the game and will be removed.
-AI 36 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 40 played EIGHT OF DIAMONDS. Next card must be HEARTS or EIGHT.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 47 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 49 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 49.
-AI 50 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 2 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 4 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 9 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 10 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 10.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 14 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 14 has won the game and will be removed.
-AI 15 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 20 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 23 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 24 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 25 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 26 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 28 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 36 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 39 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 40 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 40 has won the game and will be removed.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 43 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 48 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 48.
-AI 49 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 7 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 9 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 10 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 12 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 13 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 15 played EIGHT OF HEARTS. Next card must be SPADES or EIGHT.
-AI 16 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 17 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 20 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 24 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 24 has won the game and will be removed.
-AI 25 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 26 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 36 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 36 has won the game and will be removed.
-AI 39 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 42 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 43 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 47 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 48 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 49 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 50 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 2 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 7 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 9 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 9.
-AI 10 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 12 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 13 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 16 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 16.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 23 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 25 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 25 has won the game and will be removed.
-AI 26 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 28 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 28.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 33 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 39 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 42 played BLACK JOKER. Next card must be SPADES or JOKER.
-AI 43 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 43.
-AI 47 played RED JOKER. Next card must be DIAMONDS or JOKER.
-AI 48 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 49 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 49 has won the game and will be removed.
-AI 50 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 2 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 4 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 7 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 9 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 10 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 played EIGHT OF SPADES. Next card must be CLUBS or EIGHT.
-AI 15 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 16 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 20 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 26 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 26.
-AI 28 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 31 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 33 played EIGHT OF CLUBS. Next card must be HEARTS or EIGHT.
-AI 34 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 42 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 43 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 47 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 43 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 43 has won the game and will be removed.
-AI 42 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 42.
-AI 39 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 31 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 28 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 26 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 20 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 23 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 17 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 16 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 15 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 13 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 12 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 10 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 10 has won the game and will be removed.
-AI 9 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 9 has won the game and will be removed.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 4 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 48 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 2 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 50 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 48 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 48 has won the game and will be removed.
-AI 47 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 42 played EIGHT OF DIAMONDS. Next card must be SPADES or EIGHT.
-AI 39 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 42 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 34 played KING OF SPADES. Next card must be SPADES or KING.
-AI 33 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 28 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 28 has won the game and will be removed.
-AI 26 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 26 has won the game and will be removed.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 20 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 16 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 16 has won the game and will be removed.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 13 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 13.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 7 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 7.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 2 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 2.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 42 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 42 has won the game and will be removed.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 31 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 23 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 17 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 15 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 15.
-AI 13 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
-AI 12 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 7 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 4 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 2 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 50 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 47 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 34 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 33 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 31 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 31.
-AI 23 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 20 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 15 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 17 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 17.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 31 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 33 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 34 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 39 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 50 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 2 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 2 has won the game and will be removed.
-AI 7 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 13 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 13 has won the game and will be removed.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 7 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 4 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 50 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 39 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 31 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 31 has won the game and will be removed.
-AI 23 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 17 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 15 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 12 played BLACK JOKER. Next card must be DIAMONDS or JOKER.
-AI 7 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 7 has won the game and will be removed.
-AI 4 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 47 played RED JOKER. Next card must be SPADES or JOKER.
-AI 39 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 23 played JACK OF SPADES. Next card must be SPADES or JACK.
-AI 20 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 17 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 15 played SIX OF SPADES. Next card must be SPADES or SIX.
-AI 15 has won the game and will be removed.
-AI 12 played KING OF SPADES. Next card must be SPADES or KING.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 50 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 39 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 34 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 33 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 23 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 17 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 17 has won the game and will be removed.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 50 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 50.
-AI 47 played EIGHT OF CLUBS. Next card must be SPADES or EIGHT.
-AI 39 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 39.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 20 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 12 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-AI 4 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 50 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 39 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 34 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 34.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 20 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 20.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 4 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-AI 50 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 50 has won the game and will be removed.
-AI 39 played KING OF CLUBS. Next card must be CLUBS or KING.
-AI 39 has won the game and will be removed.
-AI 34 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-AI 47 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 34 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-AI 47 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 12 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 20 played EIGHT OF DIAMONDS. Next card must be CLUBS or EIGHT.
-AI 23 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-AI 34 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 4 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 20 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-AI 23 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-AI 33 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-AI 34 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-AI 47 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-AI 4 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 20 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 20 has won the game and will be removed.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 33 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-AI 34 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-AI 34 has won the game and will be removed.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 12 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
-AI 23 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-AI 33 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 4 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-AI 12 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 47 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 33 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 33.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 33 played EIGHT OF HEARTS. Next card must be CLUBS or EIGHT.
-AI 47 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 47.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 33 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-AI 47 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-AI 4 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-AI 12 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-AI 23 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-AI 12 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-AI 4 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-AI 47 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-AI 33 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-AI 33 has won the game and will be removed.
-AI 23 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 47 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-AI 23 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 47 played KING OF HEARTS. Next card must be HEARTS or KING.
-AI 47 has won the game and will be removed.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 12 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-AI 4 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 4.
-AI 23 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 23.
-AI 12 has chosen to draw. Penalty of 1 card applied.
-Card dealt to AI 12.
-AI 4 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
-AI 23 played THREE OF SPADES. Next card must be SPADES or THREE.
-AI 12 played TWO OF SPADES. Next card must be SPADES or TWO.
-AI 4 played ACE OF SPADES. Next card must be SPADES or ACE.
-AI 12 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-AI 23 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
-AI 4 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-AI 12 played TEN OF SPADES. Next card must be SPADES or TEN.
-AI 12 has won the game and will be removed.
-AI 23 played NINE OF SPADES. Next card must be SPADES or NINE.
-AI 23 has won the game and will be removed.
-AI 4 has lost. The game will end.
+Basic AI 1 played BLACK JOKER. Next card must be CLUBS or JOKER.
+Basic AI 2 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 3 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 5 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 6 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 8 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 9 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 10 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Basic AI 11 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 12 played RED JOKER. Next card must be CLUBS or JOKER.
+Basic AI 13 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 14 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Basic AI 17 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 19 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 21 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Basic AI 22 played JACK OF SPADES. Next card must be SPADES or JACK.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 24 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 25 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Random AI 2 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 3 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 4 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
+Random AI 5 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 7 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Random AI 8 played RED JOKER. Next card must be CLUBS or JOKER.
+Random AI 9 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Random AI 10 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Random AI 11 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 13 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 15 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
+Random AI 16 played KING OF HEARTS. Next card must be HEARTS or KING.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 18 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Random AI 19 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Random AI 22 played KING OF CLUBS. Next card must be CLUBS or KING.
+Random AI 23 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Random AI 24 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 1 played RED JOKER. Next card must be CLUBS or JOKER.
+Basic AI 2 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 3 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 4 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
+Basic AI 5 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Basic AI 6 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 8 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 11 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 13 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 14 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Basic AI 17 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Basic AI 18 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
+Basic AI 19 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 played NINE OF SPADES. Next card must be SPADES or NINE.
+Basic AI 22 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 24.
+Basic AI 25 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 2 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 5 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 5.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 7.
+Random AI 8 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 10 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Random AI 11 played KING OF CLUBS. Next card must be CLUBS or KING.
+Random AI 12 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Random AI 13 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 14.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played KING OF HEARTS. Next card must be HEARTS or KING.
+Random AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 18.
+Random AI 19 played BLACK JOKER. Next card must be CLUBS or JOKER.
+Random AI 20 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Random AI 21 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 23.
+Random AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 24.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 25 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 24 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Basic AI 1 has one card remaining.
+Basic AI 2 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 3 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 5 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Basic AI 6 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 8 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 11 played BLACK JOKER. Next card must be SPADES or JOKER.
+Basic AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 12.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 14.
+Basic AI 15 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 16 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 22 played BLACK JOKER. Next card must be SPADES or JOKER.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 24 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 2 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 5 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 5.
+Random AI 6 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Random AI 7 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 8 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 9 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 10.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 14.
+Random AI 15 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Random AI 16 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 18 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 20 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 19 played RED JOKER. Next card must be CLUBS or JOKER.
+Random AI 18 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 17 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 16 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 15 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 10 played EIGHT OF DIAMONDS. Next card must be CLUBS or EIGHT.
+Random AI 9 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 8 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 8 has one card remaining.
+Random AI 9 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Random AI 10 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 13 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 14 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 16 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 14 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 15 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 16 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Random AI 16 has one card remaining.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 18 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 23 played RED JOKER. Next card must be DIAMONDS or JOKER.
+Random AI 24 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 1.
+Basic AI 2 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 2 has one card remaining.
+Basic AI 3 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 3 has one card remaining.
+Basic AI 5 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 5.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 8 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 8.
+Basic AI 9 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 10 played SIX OF SPADES. Next card must be SPADES or SIX.
+Basic AI 11 played JACK OF SPADES. Next card must be SPADES or JACK.
+Basic AI 11 has one card remaining.
+Basic AI 12 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 13 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 14 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 18 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 22 played RED JOKER. Next card must be SPADES or JOKER.
+Basic AI 22 has one card remaining.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 24.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Random AI 2 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 2.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 5 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 4 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 5 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 7.
+Random AI 8 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 8.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 10.
+Random AI 11 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 14 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 15 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 18.
+Random AI 19 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 20 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 21.
+Random AI 22 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
+Random AI 23 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 24 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 1.
+Basic AI 2 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 2.
+Basic AI 3 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 3 has zero cards and will be declared a winner.
+Basic AI 3 has won the game and will be removed.
+Basic AI 4 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 5 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 5.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Basic AI 8 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 played NINE OF SPADES. Next card must be SPADES or NINE.
+Basic AI 11 played KING OF SPADES. Next card must be SPADES or KING.
+Basic AI 11 has zero cards and will be declared a winner.
+Basic AI 11 has won the game and will be removed.
+Basic AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 12.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 14 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 22 played KING OF SPADES. Next card must be SPADES or KING.
+Basic AI 22 has zero cards and will be declared a winner.
+Basic AI 22 has won the game and will be removed.
+Basic AI 23 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 24 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 25 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 1 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 2 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 3 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 4 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 5 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Random AI 6 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 7 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 8 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 8 has one card remaining.
+Random AI 10 played RED JOKER. Next card must be CLUBS or JOKER.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 11 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Random AI 12 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 13 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 18.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 21.
+Random AI 22 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Random AI 21 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 23.
+Random AI 24 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 24 has one card remaining.
+Random AI 23 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 22 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Random AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 21.
+Random AI 20 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Random AI 19 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 18 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Random AI 17 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Random AI 16 played TWO OF SPADES. Next card must be SPADES or TWO.
+Random AI 15 played EIGHT OF DIAMONDS. Next card must be HEARTS or EIGHT.
+Random AI 14 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 12 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 11 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 10 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Random AI 10 has one card remaining.
+Random AI 9 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Random AI 8 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 8.
+Random AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 7.
+Random AI 6 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 5 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 4 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 3 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 2 played EIGHT OF SPADES. Next card must be DIAMONDS or EIGHT.
+Random AI 2 has one card remaining.
+Random AI 1 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 25 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Random AI 1 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 2 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 2 has zero cards and will be declared a winner.
+Random AI 2 has won the game and will be removed.
+Random AI 3 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 4 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 5 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 5 has one card remaining.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 7 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 8 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 8 has one card remaining.
+Random AI 9 played BLACK JOKER. Next card must be CLUBS or JOKER.
+Random AI 9 has one card remaining.
+Random AI 10 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Random AI 10 has zero cards and will be declared a winner.
+Random AI 10 has won the game and will be removed.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 14 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 15 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 18 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 23 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 24 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 24 has zero cards and will be declared a winner.
+Random AI 24 has won the game and will be removed.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 2 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 2 has one card remaining.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 5 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 6 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 8 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 8 has one card remaining.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 12.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 14 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 14 has one card remaining.
+Basic AI 15 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Basic AI 18 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Basic AI 19 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 24 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 25 played KING OF CLUBS. Next card must be CLUBS or KING.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 5 played KING OF HEARTS. Next card must be HEARTS or KING.
+Random AI 5 has zero cards and will be declared a winner.
+Random AI 5 has won the game and will be removed.
+Random AI 6 played EIGHT OF HEARTS. Next card must be SPADES or EIGHT.
+Random AI 7 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 8 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 8.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 14 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 14 has one card remaining.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 16 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 17 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 18 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 18 has one card remaining.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 23.
+Random AI 25 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 1 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 1 has one card remaining.
+Basic AI 2 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 2 has zero cards and will be declared a winner.
+Basic AI 2 has won the game and will be removed.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 5 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Basic AI 8 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 8 has zero cards and will be declared a winner.
+Basic AI 8 has won the game and will be removed.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 12.
+Basic AI 13 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 14.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 19 has one card remaining.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 23 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 24 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 6 played TWO OF SPADES. Next card must be SPADES or TWO.
+Random AI 7 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 14.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 17 has one card remaining.
+Random AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 18.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 21 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Random AI 21 has one card remaining.
+Random AI 22 played EIGHT OF CLUBS. Next card must be SPADES or EIGHT.
+Random AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 23.
+Random AI 25 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 1.
+Basic AI 4 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 5 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Basic AI 5 has one card remaining.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 12 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 10 played ACE OF SPADES. Next card must be SPADES or ACE.
+Basic AI 12 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Basic AI 10 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 9 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 6 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 5 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 5 has zero cards and will be declared a winner.
+Basic AI 5 has won the game and will be removed.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 1 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 1 has one card remaining.
+Random AI 25 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 23 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 22 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 21 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 21 has zero cards and will be declared a winner.
+Random AI 21 has won the game and will be removed.
+Random AI 20 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
+Random AI 19 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 15.
+Random AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 14.
+Random AI 13 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 12 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 11 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 9 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 7.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 1 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 25 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 24.
+Basic AI 23 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 21 played EIGHT OF DIAMONDS. Next card must be SPADES or EIGHT.
+Basic AI 20 played ACE OF SPADES. Next card must be SPADES or ACE.
+Basic AI 21 played SIX OF SPADES. Next card must be SPADES or SIX.
+Basic AI 23 played JACK OF SPADES. Next card must be SPADES or JACK.
+Basic AI 24 played JACK OF SPADES. Next card must be SPADES or JACK.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 3 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 4 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 6 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 7 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 8 played RED JOKER. Next card must be HEARTS or JOKER.
+Random AI 8 has one card remaining.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 9 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 11 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 12 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Random AI 13 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Random AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 14.
+Random AI 15 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 16 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 18 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 18 has one card remaining.
+Random AI 19 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Random AI 20 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Random AI 22 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 23 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 1 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 1 has zero cards and will be declared a winner.
+Basic AI 1 has won the game and will be removed.
+Basic AI 4 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 6 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 9 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 12 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 14 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 14.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 23 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Basic AI 21 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Basic AI 20 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 19 played EIGHT OF CLUBS. Next card must be HEARTS or EIGHT.
+Basic AI 19 has one card remaining.
+Basic AI 18 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Basic AI 17 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 16 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 15 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Basic AI 14 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 15 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 14 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 14 has one card remaining.
+Basic AI 13 played EIGHT OF SPADES. Next card must be CLUBS or EIGHT.
+Basic AI 12 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Basic AI 10 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 9 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 7 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 6 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 25 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 23 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Random AI 23 has one card remaining.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 20 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Random AI 19 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 20 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Random AI 22 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 25 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 4 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 12 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 13 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 14 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 14 has zero cards and will be declared a winner.
+Basic AI 14 has won the game and will be removed.
+Basic AI 15 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 16 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 17 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 18 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 20 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 21 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 24 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 24 has one card remaining.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 7 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 7 has one card remaining.
+Random AI 8 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 8 has zero cards and will be declared a winner.
+Random AI 8 has won the game and will be removed.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 12 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 7 played EIGHT OF SPADES. Next card must be HEARTS or EIGHT.
+Random AI 7 has zero cards and will be declared a winner.
+Random AI 7 has won the game and will be removed.
+Random AI 6 played EIGHT OF DIAMONDS. Next card must be SPADES or EIGHT.
+Random AI 4 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 1 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Basic AI 25 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 24.
+Basic AI 23 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Basic AI 21 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 20 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 19 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 19 has one card remaining.
+Basic AI 18 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Basic AI 17 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Basic AI 16 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Basic AI 15 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 12 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 12 has one card remaining.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 9 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 7 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 4 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 25 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 23.
+Random AI 22 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 22.
+Random AI 20 played KING OF HEARTS. Next card must be HEARTS or KING.
+Random AI 19 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 19 has one card remaining.
+Random AI 17 played RED JOKER. Next card must be SPADES or JOKER.
+Random AI 16 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 15 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Random AI 14 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 6 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 1 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Basic AI 25 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 24 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 24 has one card remaining.
+Basic AI 23 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 20 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 18 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Basic AI 17 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Basic AI 17 has one card remaining.
+Basic AI 18 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Basic AI 18 has one card remaining.
+Basic AI 19 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 19 has one card remaining.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 21 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 23 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 24 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 24.
+Basic AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 25.
+Random AI 1 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 1 has one card remaining.
+Random AI 4 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played EIGHT OF HEARTS. Next card must be DIAMONDS or EIGHT.
+Random AI 12 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 13 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 14 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 15 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 16 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Random AI 16 has one card remaining.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 18 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 18 has zero cards and will be declared a winner.
+Random AI 18 has won the game and will be removed.
+Random AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 19.
+Random AI 20 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 20 has one card remaining.
+Random AI 22 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Random AI 23 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 23 has one card remaining.
+Random AI 25 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 6 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Basic AI 4 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 9 played ACE OF SPADES. Next card must be SPADES or ACE.
+Basic AI 7 played NINE OF SPADES. Next card must be SPADES or NINE.
+Basic AI 6 played EIGHT OF SPADES. Next card must be HEARTS or EIGHT.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 25 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 23 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 23 has zero cards and will be declared a winner.
+Random AI 23 has won the game and will be removed.
+Random AI 22 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 22 has one card remaining.
+Random AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 20.
+Random AI 19 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 19 has one card remaining.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 15 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 15 has one card remaining.
+Random AI 14 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 14 has one card remaining.
+Random AI 13 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 13 has one card remaining.
+Random AI 12 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 11 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 9 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 4 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 4 has one card remaining.
+Random AI 3 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 1 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 1.
+Basic AI 25 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 24 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Basic AI 24 has one card remaining.
+Basic AI 23 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 23 has one card remaining.
+Basic AI 21 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 21 has one card remaining.
+Basic AI 20 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 16 played ACE OF SPADES. Next card must be SPADES or ACE.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Basic AI 19 has one card remaining.
+Basic AI 18 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 17 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 15 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 12.
+Basic AI 10 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 10.
+Basic AI 9 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 7 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Basic AI 6 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Basic AI 4 played THREE OF SPADES. Next card must be SPADES or THREE.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Random AI 22 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 22 has zero cards and will be declared a winner.
+Random AI 22 has won the game and will be removed.
+Random AI 25 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 20 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Random AI 20 has one card remaining.
+Random AI 19 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 19 has zero cards and will be declared a winner.
+Random AI 19 has won the game and will be removed.
+Random AI 17 played THREE OF SPADES. Next card must be SPADES or THREE.
+Random AI 16 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 16 has one card remaining.
+Random AI 15 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 15 has zero cards and will be declared a winner.
+Random AI 15 has won the game and will be removed.
+Random AI 14 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 14 has zero cards and will be declared a winner.
+Random AI 14 has won the game and will be removed.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Random AI 6 played THREE OF SPADES. Next card must be SPADES or THREE.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 1 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 1 has one card remaining.
+Basic AI 24 played ACE OF SPADES. Next card must be SPADES or ACE.
+Basic AI 24 has zero cards and will be declared a winner.
+Basic AI 24 has won the game and will be removed.
+Basic AI 25 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 25 has one card remaining.
+Random AI 3 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 6 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 20 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 20 has zero cards and will be declared a winner.
+Random AI 20 has won the game and will be removed.
+Random AI 25 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 25.
+Basic AI 4 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 9 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 10 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 12 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Basic AI 12 has one card remaining.
+Basic AI 13 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 15 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 16 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Basic AI 17 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 17 has one card remaining.
+Basic AI 18 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Basic AI 18 has one card remaining.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 20 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 25 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 25 has zero cards and will be declared a winner.
+Basic AI 25 has won the game and will be removed.
+Random AI 1 played RED JOKER. Next card must be SPADES or JOKER.
+Random AI 1 has zero cards and will be declared a winner.
+Random AI 1 has won the game and will be removed.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Random AI 6 has one card remaining.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 12 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 13 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Random AI 16 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Random AI 16 has one card remaining.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 25 played EIGHT OF DIAMONDS. Next card must be HEARTS or EIGHT.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 6 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 9 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 9 has one card remaining.
+Basic AI 10 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Basic AI 12 played EIGHT OF CLUBS. Next card must be SPADES or EIGHT.
+Basic AI 12 has zero cards and will be declared a winner.
+Basic AI 12 has won the game and will be removed.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 played NINE OF SPADES. Next card must be SPADES or NINE.
+Basic AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 17.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 19.
+Basic AI 20 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 21 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 21.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Random AI 11 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Random AI 12 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 13 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 13 has one card remaining.
+Random AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 16.
+Random AI 17 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 25 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 25 has one card remaining.
+Basic AI 4 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Basic AI 6 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 6 has one card remaining.
+Basic AI 7 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 13 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 16 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 16 has one card remaining.
+Basic AI 17 played EIGHT OF HEARTS. Next card must be HEARTS or EIGHT.
+Basic AI 17 has one card remaining.
+Basic AI 18 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Basic AI 18 has one card remaining.
+Basic AI 19 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 21 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 3 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Random AI 4 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 4 has one card remaining.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 16 played TWO OF SPADES. Next card must be SPADES or TWO.
+Random AI 16 has one card remaining.
+Random AI 17 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Random AI 17 has one card remaining.
+Basic AI 4 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 9 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 9 has one card remaining.
+Basic AI 10 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Basic AI 10 has one card remaining.
+Basic AI 13 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 15 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 17 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Basic AI 17 has zero cards and will be declared a winner.
+Basic AI 17 has won the game and will be removed.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 19 has one card remaining.
+Basic AI 20 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 21 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 21 has one card remaining.
+Basic AI 23 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Random AI 13 played EIGHT OF SPADES. Next card must be CLUBS or EIGHT.
+Random AI 13 has one card remaining.
+Random AI 16 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Random AI 16 has zero cards and will be declared a winner.
+Random AI 16 has won the game and will be removed.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 25 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Random AI 25 has zero cards and will be declared a winner.
+Random AI 25 has won the game and will be removed.
+Basic AI 4 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 6 played NINE OF SPADES. Next card must be SPADES or NINE.
+Basic AI 6 has one card remaining.
+Basic AI 7 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 10 played SIX OF SPADES. Next card must be SPADES or SIX.
+Basic AI 10 has zero cards and will be declared a winner.
+Basic AI 10 has won the game and will be removed.
+Basic AI 13 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Basic AI 13 has one card remaining.
+Basic AI 15 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Basic AI 16 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 16 has one card remaining.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 19 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Basic AI 19 has zero cards and will be declared a winner.
+Basic AI 19 has won the game and will be removed.
+Basic AI 20 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 15 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 15 has one card remaining.
+Basic AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 13.
+Basic AI 9 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 9 has one card remaining.
+Basic AI 13 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Basic AI 13 has one card remaining.
+Basic AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 9.
+Basic AI 7 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Basic AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 6.
+Basic AI 4 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Basic AI 4 has one card remaining.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 13 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 13.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 played RED JOKER. Next card must be SPADES or JOKER.
+Random AI 6 played THREE OF SPADES. Next card must be SPADES or THREE.
+Random AI 4 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 4 has one card remaining.
+Random AI 3 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 23 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Basic AI 23 has one card remaining.
+Basic AI 21 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Basic AI 21 has zero cards and will be declared a winner.
+Basic AI 21 has won the game and will be removed.
+Basic AI 20 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Basic AI 18 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 16 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Basic AI 16 has one card remaining.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 13 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 13 has zero cards and will be declared a winner.
+Basic AI 13 has won the game and will be removed.
+Basic AI 9 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Basic AI 9 has one card remaining.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 6 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 6 has one card remaining.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 17 played TEN OF CLUBS. Next card must be CLUBS or TEN.
+Random AI 13 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Random AI 13 has one card remaining.
+Random AI 12 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 9 played THREE OF CLUBS. Next card must be CLUBS or THREE.
+Random AI 6 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 20 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 20 has one card remaining.
+Basic AI 18 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 15 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 15 has one card remaining.
+Basic AI 9 played EIGHT OF CLUBS. Next card must be CLUBS or EIGHT.
+Basic AI 9 has zero cards and will be declared a winner.
+Basic AI 9 has won the game and will be removed.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 6 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 6 has zero cards and will be declared a winner.
+Basic AI 6 has won the game and will be removed.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 17 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 17 has one card remaining.
+Random AI 13 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Random AI 13 has zero cards and will be declared a winner.
+Random AI 13 has won the game and will be removed.
+Random AI 12 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 12 has one card remaining.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 23 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 23.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 18 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 18 has one card remaining.
+Basic AI 15 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 15.
+Basic AI 7 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Random AI 17 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 17.
+Random AI 12 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 12.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 4 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 23 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 20 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Basic AI 20 has one card remaining.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 16 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Basic AI 16 has one card remaining.
+Basic AI 15 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Basic AI 15 has one card remaining.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 23 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Basic AI 23 has one card remaining.
+Basic AI 20 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Basic AI 20 has one card remaining.
+Basic AI 18 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Basic AI 16 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 16 has one card remaining.
+Basic AI 15 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Basic AI 15 has zero cards and will be declared a winner.
+Basic AI 15 has won the game and will be removed.
+Basic AI 7 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 17 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 17 has one card remaining.
+Random AI 12 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 12 has one card remaining.
+Random AI 11 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Random AI 9 played SIX OF SPADES. Next card must be SPADES or SIX.
+Random AI 6 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Random AI 9 played ACE OF SPADES. Next card must be SPADES or ACE.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 12 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 12 has zero cards and will be declared a winner.
+Random AI 12 has won the game and will be removed.
+Random AI 17 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Random AI 17 has zero cards and will be declared a winner.
+Random AI 17 has won the game and will be removed.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 7 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 23 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Basic AI 23 has zero cards and will be declared a winner.
+Basic AI 23 has won the game and will be removed.
+Random AI 3 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 4 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 4 has one card remaining.
+Random AI 6 played EIGHT OF HEARTS. Next card must be SPADES or EIGHT.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 played TWO OF SPADES. Next card must be SPADES or TWO.
+Basic AI 4 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 16 played JACK OF SPADES. Next card must be SPADES or JACK.
+Basic AI 16 has one card remaining.
+Basic AI 18 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Basic AI 20 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 20 has one card remaining.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Basic AI 4 played KING OF HEARTS. Next card must be HEARTS or KING.
+Basic AI 7 played EIGHT OF SPADES. Next card must be DIAMONDS or EIGHT.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Stack reshuffled into deck.
+Card dealt to Basic AI 20.
+Random AI 3 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Random AI 4 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Random AI 4 has one card remaining.
+Random AI 3 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 9.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Random AI 3 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 played JACK OF HEARTS. Next card must be HEARTS or JACK.
+Random AI 9 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 11 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Basic AI 4 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 7 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Basic AI 16 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Random AI 9 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Basic AI 4 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 7 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
+Basic AI 7 has one card remaining.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Random AI 3 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 9 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Basic AI 4 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 4 has one card remaining.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 16 played RED JOKER. Next card must be SPADES or JOKER.
+Basic AI 18 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Basic AI 20 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Random AI 4 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 6 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 9 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Random AI 9 has one card remaining.
+Random AI 11 played EIGHT OF CLUBS. Next card must be HEARTS or EIGHT.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 16 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 16.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 20 played THREE OF HEARTS. Next card must be HEARTS or THREE.
+Basic AI 20 has one card remaining.
+Random AI 3 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Random AI 4 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 6 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 6 has one card remaining.
+Random AI 4 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 18 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 7 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 7.
+Basic AI 4 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Basic AI 4 has one card remaining.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Random AI 9 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 9 has zero cards and will be declared a winner.
+Random AI 9 has won the game and will be removed.
+Random AI 6 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 6.
+Random AI 4 played NINE OF SPADES. Next card must be SPADES or NINE.
+Random AI 4 has one card remaining.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 20 played SIX OF SPADES. Next card must be SPADES or SIX.
+Basic AI 20 has one card remaining.
+Basic AI 18 played KING OF SPADES. Next card must be SPADES or KING.
+Basic AI 16 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 7 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 11 played JACK OF SPADES. Next card must be SPADES or JACK.
+Random AI 6 played BLACK JOKER. Next card must be SPADES or JOKER.
+Random AI 6 has one card remaining.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 16 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 16 has one card remaining.
+Basic AI 4 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Basic AI 4 has one card remaining.
+Random AI 6 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Random AI 6 has zero cards and will be declared a winner.
+Random AI 6 has won the game and will be removed.
+Random AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 18 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Basic AI 16 played EIGHT OF CLUBS. Next card must be DIAMONDS or EIGHT.
+Basic AI 16 has zero cards and will be declared a winner.
+Basic AI 16 has won the game and will be removed.
+Basic AI 7 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 11 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Random AI 4 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Random AI 3 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Basic AI 20 played BLACK JOKER. Next card must be CLUBS or JOKER.
+Basic AI 18 played KING OF CLUBS. Next card must be CLUBS or KING.
+Basic AI 18 has one card remaining.
+Basic AI 7 played KING OF SPADES. Next card must be SPADES or KING.
+Basic AI 7 has one card remaining.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 11 played KING OF CLUBS. Next card must be CLUBS or KING.
+Random AI 4 played SIX OF CLUBS. Next card must be CLUBS or SIX.
+Random AI 4 has one card remaining.
+Random AI 3 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 20 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 20 has one card remaining.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 7 played JACK OF CLUBS. Next card must be CLUBS or JACK.
+Basic AI 7 has zero cards and will be declared a winner.
+Basic AI 7 has won the game and will be removed.
+Basic AI 4 played BLACK JOKER. Next card must be HEARTS or JOKER.
+Random AI 11 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Random AI 4 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Random AI 4 has zero cards and will be declared a winner.
+Random AI 4 has won the game and will be removed.
+Random AI 11 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 11.
+Basic AI 4 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Basic AI 4 has one card remaining.
+Random AI 11 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
+Basic AI 20 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 20.
+Basic AI 18 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 18 has one card remaining.
+Random AI 11 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
+Random AI 11 has one card remaining.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 20 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Basic AI 20 has one card remaining.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 11 played KING OF CLUBS. Next card must be CLUBS or KING.
+Random AI 11 has zero cards and will be declared a winner.
+Random AI 11 has won the game and will be removed.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 20 played RED JOKER. Next card must be HEARTS or JOKER.
+Basic AI 20 has zero cards and will be declared a winner.
+Basic AI 20 has won the game and will be removed.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 4 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 4 has one card remaining.
+Random AI 3 played SIX OF HEARTS. Next card must be HEARTS or SIX.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 4 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 4.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Basic AI 4 played EIGHT OF SPADES. Next card must be SPADES or EIGHT.
+Basic AI 4 has one card remaining.
+Random AI 3 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Basic AI 18 played THREE OF SPADES. Next card must be SPADES or THREE.
+Basic AI 4 played TEN OF SPADES. Next card must be SPADES or TEN.
+Basic AI 4 has zero cards and will be declared a winner.
+Basic AI 4 has won the game and will be removed.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 played TEN OF SPADES. Next card must be SPADES or TEN.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 played KING OF SPADES. Next card must be SPADES or KING.
+Random AI 3 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
+Basic AI 18 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Random AI 3 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Random AI 3 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Random AI 3 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Random AI 3 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
+Basic AI 18 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Random AI 3 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Basic AI 18 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Basic AI 18 has one card remaining.
+Basic AI 18 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Basic AI 18.
+Random AI 3 has chosen to draw. Penalty of 1 card applied.
+Card dealt to Random AI 3.
+Basic AI 18 played BLACK JOKER. Next card must be HEARTS or JOKER.
+Basic AI 18 has one card remaining.
+Random AI 3 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Basic AI 18 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Basic AI 18 has zero cards and will be declared a winner.
+Basic AI 18 has won the game and will be removed.
+Random AI 3 has lost the game. The game is over.
+All players have won. The game will end.
 [GAME STATE]
-Stack (590 cards): Top card is NINE OF SPADES.
-Next card must match NINE or SPADES.
-3 cards in deck.
-
+Stack (91 cards): Top card is FIVE OF HEARTS.
+Next card must match FIVE or HEARTS.
+500 cards in deck.
+[NEXT 20 PLAYERS]
+[]
 [PLAYERS SUMMARY]
 
-AI 27 (winner) (0 cards)
-AI 3 (winner) (0 cards)
-AI 8 (winner) (0 cards)
-AI 22 (winner) (0 cards)
-AI 5 (winner) (0 cards)
-AI 19 (winner) (0 cards)
-AI 21 (winner) (0 cards)
-AI 38 (winner) (0 cards)
-AI 46 (winner) (0 cards)
-AI 30 (winner) (0 cards)
-AI 29 (winner) (0 cards)
-AI 32 (winner) (0 cards)
-AI 6 (winner) (0 cards)
-AI 45 (winner) (0 cards)
-AI 1 (winner) (0 cards)
-AI 44 (winner) (0 cards)
-AI 41 (winner) (0 cards)
-AI 18 (winner) (0 cards)
-AI 11 (winner) (0 cards)
-AI 35 (winner) (0 cards)
-AI 37 (winner) (0 cards)
-AI 14 (winner) (0 cards)
-AI 40 (winner) (0 cards)
-AI 24 (winner) (0 cards)
-AI 36 (winner) (0 cards)
-AI 25 (winner) (0 cards)
-AI 49 (winner) (0 cards)
-AI 43 (winner) (0 cards)
-AI 10 (winner) (0 cards)
-AI 9 (winner) (0 cards)
-AI 48 (winner) (0 cards)
-AI 28 (winner) (0 cards)
-AI 26 (winner) (0 cards)
-AI 16 (winner) (0 cards)
-AI 42 (winner) (0 cards)
-AI 2 (winner) (0 cards)
-AI 13 (winner) (0 cards)
-AI 31 (winner) (0 cards)
-AI 7 (winner) (0 cards)
-AI 15 (winner) (0 cards)
-AI 17 (winner) (0 cards)
-AI 50 (winner) (0 cards)
-AI 39 (winner) (0 cards)
-AI 20 (winner) (0 cards)
-AI 34 (winner) (0 cards)
-AI 33 (winner) (0 cards)
-AI 47 (winner) (0 cards)
-AI 12 (winner) (0 cards)
-AI 23 (winner) (0 cards)
-AI 4 (loser) (1 cards)
+Basic AI 3 (winner) (0 cards)
+Basic AI 11 (winner) (0 cards)
+Basic AI 22 (winner) (0 cards)
+Random AI 2 (winner) (0 cards)
+Random AI 10 (winner) (0 cards)
+Random AI 24 (winner) (0 cards)
+Random AI 5 (winner) (0 cards)
+Basic AI 2 (winner) (0 cards)
+Basic AI 8 (winner) (0 cards)
+Basic AI 5 (winner) (0 cards)
+Random AI 21 (winner) (0 cards)
+Basic AI 1 (winner) (0 cards)
+Basic AI 14 (winner) (0 cards)
+Random AI 8 (winner) (0 cards)
+Random AI 7 (winner) (0 cards)
+Random AI 18 (winner) (0 cards)
+Random AI 23 (winner) (0 cards)
+Random AI 22 (winner) (0 cards)
+Random AI 19 (winner) (0 cards)
+Random AI 15 (winner) (0 cards)
+Random AI 14 (winner) (0 cards)
+Basic AI 24 (winner) (0 cards)
+Random AI 20 (winner) (0 cards)
+Basic AI 25 (winner) (0 cards)
+Random AI 1 (winner) (0 cards)
+Basic AI 12 (winner) (0 cards)
+Basic AI 17 (winner) (0 cards)
+Random AI 16 (winner) (0 cards)
+Random AI 25 (winner) (0 cards)
+Basic AI 10 (winner) (0 cards)
+Basic AI 19 (winner) (0 cards)
+Basic AI 21 (winner) (0 cards)
+Basic AI 13 (winner) (0 cards)
+Basic AI 9 (winner) (0 cards)
+Basic AI 6 (winner) (0 cards)
+Random AI 13 (winner) (0 cards)
+Basic AI 15 (winner) (0 cards)
+Random AI 12 (winner) (0 cards)
+Random AI 17 (winner) (0 cards)
+Basic AI 23 (winner) (0 cards)
+Random AI 9 (winner) (0 cards)
+Random AI 6 (winner) (0 cards)
+Basic AI 16 (winner) (0 cards)
+Basic AI 7 (winner) (0 cards)
+Random AI 4 (winner) (0 cards)
+Random AI 11 (winner) (0 cards)
+Basic AI 20 (winner) (0 cards)
+Basic AI 4 (winner) (0 cards)
+Basic AI 18 (winner) (0 cards)
+Random AI 3 (loser) (3 cards)
 [HANDS]
-
+Basic AI 3: 
+Basic AI 11: 
+Basic AI 22: 
+Random AI 2: 
+Random AI 10: 
+Random AI 24: 
+Random AI 5: 
+Basic AI 2: 
+Basic AI 8: 
+Basic AI 5: 
+Random AI 21: 
+Basic AI 1: 
+Basic AI 14: 
+Random AI 8: 
+Random AI 7: 
+Random AI 18: 
+Random AI 23: 
+Random AI 22: 
+Random AI 19: 
+Random AI 15: 
+Random AI 14: 
+Basic AI 24: 
+Random AI 20: 
+Basic AI 25: 
+Random AI 1: 
+Basic AI 12: 
+Basic AI 17: 
+Random AI 16: 
+Random AI 25: 
+Basic AI 10: 
+Basic AI 19: 
+Basic AI 21: 
+Basic AI 13: 
+Basic AI 9: 
+Basic AI 6: 
+Random AI 13: 
+Basic AI 15: 
+Random AI 12: 
+Random AI 17: 
+Basic AI 23: 
+Random AI 9: 
+Random AI 6: 
+Basic AI 16: 
+Basic AI 7: 
+Random AI 4: 
+Random AI 11: 
+Basic AI 20: 
+Basic AI 4: 
+Basic AI 18: 
+Random AI 3: TWO OF HEARTS, ACE OF SPADES, and SEVEN OF SPADES
 
 Process finished with exit code 0
+

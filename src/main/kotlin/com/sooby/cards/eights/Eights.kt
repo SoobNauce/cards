@@ -191,9 +191,7 @@ class Eights {
             val result: Suit? = hSuits.maxByOrNull{it.value.size}?.key
             // I have only wild cards
             if(hand.size == specialHand().size){
-                return listOf(
-                    Suit.CLUBS, Suit.DIAMONDS, Suit.HEARTS, Suit.SPADES
-                ).random()
+                return CardsCompanion.normalSuits.random()
             }
             require(result != null){
                 "[$name]: I have non wild cards, but I couldn't decide what suit I have " +
@@ -249,7 +247,12 @@ class Eights {
             specialHand() + normalHand().filter{
                 (it.suit == lastSuit) or (it.value == lastValue)
             }
-        override fun declareSuit(): Suit = mySuits().random()
+        override fun declareSuit(): Suit =
+            if(specialHand().size == handSize()){
+                CardsCompanion.normalSuits.random()
+            }else {
+                mySuits().random()
+            }
         override fun declareSuit(lastCard: Card, lastSuit: Suit, lastValue: Value): Suit =
             declareSuit()
 
@@ -375,6 +378,9 @@ class Eights {
                     "Tried to reshuffle, but there are still no cards to deal"
                 }
                 player.accept(deck.removeFirst())
+                if(!suppressHistory){
+                    detailedHistory.add("Card dealt to ${player.name}.")
+                }
             }
         }
         fun dealSeveral(player: Player, n: Int) {
@@ -456,7 +462,7 @@ class Eights {
             // Remove all winners
             // Find winners first
             // The call to toList() is because we're going to iterate over this later
-            fun winners() = players.filter{it.hand.size == 0}.toList()
+            fun winners() = players.filter{it.handSize() == 0}.toList()
             winners().forEach{p ->
                     // Removing an element shifts all subsequent elements to the left
                     // The only reason we need to care about the index is if
@@ -525,10 +531,13 @@ class Eights {
                 detailedHistory.add(
                     "${p.name} played ${a.card}. Next card must be $lastSuit or $lastValue."
                 )
-                if(p.hand.size == 0){
-                    detailedHistory.add(
+                when(p.handSize()){
+                    0 -> {detailedHistory.add(
                         "${p.name} has zero cards and will be declared a winner."
-                    )
+                    )}
+                    1 -> {detailedHistory.add(
+                        "${p.name} has one card remaining."
+                    )}
                 }
             } else {
                 // We know `a.card` is not null
@@ -609,7 +618,7 @@ class Eights {
             }
             if(players.size == 1){
                 val p = players.first()
-                loser = p
+                removeLoser(p)
             }
         }
 
@@ -635,11 +644,22 @@ class Eights {
 
         override fun nonPlayerSummary() = """Stack (${history.size} cards): Top card is ${history.first()}.
             |Next card must match $lastValue or $lastSuit.
-            |${deck.size} cards in deck.
-            |""".trimMargin("|")
+            |${deck.size} cards in deck.""".trimMargin("|")
 
-        override fun predictNextPlayer() = players[nextFromIndex(cPlayerIndex)].toString()
-        override fun predictNextPlayers(depth: Int) =
-            nextSeveral(cPlayerIndex, depth).map{players[it].name}
+        override fun predictNextPlayers(depth: Int): List<String> = if(players.size == 0){
+            listOf<String>()
+        }else{
+            nextSeveral(cPlayerIndex, depth).map{
+                players[it].name
+            }
+        }
+
+        override fun predictNextPlayer() = predictNextPlayers(1).let {
+            if(it.isEmpty()){
+                "N/A"
+            }else{
+                it.first()
+            }
+        }
     }
 }
