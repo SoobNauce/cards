@@ -287,16 +287,27 @@ class Eights {
         }
     }
     class HumanPlayer(name: String): Player(name){
+        // These are globals so that the prompt can return multiple values (suit and card) at once
+        // without having to define a new class
         var suitToPlay: Suit? = null
         var cardToPlay: Card? = null
         var willDraw = false
+
+        // These are for user input
         var warningsDisabled = false
         var unreadMessages: ArrayDeque<String> = ArrayDeque()
+        var lastMessage: String? = null
         var lastTurnSeen = -1// At the beginning, this will capture all messages.
+        val jokerWarning = "Are you sure? You should not declare joker suits. (Y/any)"
+        val cardWarning = "Are you sure? This card does not appear to be a valid play. (Y/any)"
 
         private fun prepareSuitString(suitString: String): String = when(suitString.uppercase()){
             "RED" -> "RED_JOKER"
             "BLACK" -> "BLACK_JOKER"
+            "CLUB" -> "CLUBS"
+            "DIAMOND" -> "DIAMONDS"
+            "HEART" -> "HEARTS"
+            "SPADE" -> "SPADES"
             else -> suitString.uppercase()
         }
         private fun decodeSuit(suitString: String): Suit? =
@@ -416,18 +427,23 @@ class Eights {
 
         private fun updateUnread(){
             val gameTurn = game?.turnNumber() ?: 0
-            val reducedRecents = if(lastTurnSeen == -1){
+            val reducedRecents = if(
+                (lastTurnSeen == -1) or (lastMessage == null)
+            ){
                 game?.historySummary(10) ?: listOf()
             }else if(gameTurn > lastTurnSeen){
-                game?.historySummary(gameTurn - lastTurnSeen)
+                game?.historySummary(gameTurn + 1 - lastTurnSeen)
                     ?.dropWhile{
-                        !it.contains("Turn ${lastTurnSeen + 1}")
-                    } ?: listOf()
+                        // Because dropWhile captures the first message that doesn't satisfy the predicate
+                        // We need to drop one message to make this truly capture unread messages.
+                        it != lastMessage
+                    }?.drop(1) ?: listOf()
             }else{
                 listOf()
             }
             unreadMessages.addAll(reducedRecents)
             lastTurnSeen = gameTurn
+            lastMessage = unreadMessages.lastOrNull()
         }
 
         private fun consumeUnread(): List<String> =
@@ -435,14 +451,16 @@ class Eights {
                 unreadMessages.clear()
             }
 
-        private fun promptInput(prompt: String = ""): String {
-            println(prompt)
-            return readLine() ?: throw java.io.EOFException("EOF while reading player input.")
+        private fun promptInput(prompt: String = ""): String? {
+            if(prompt != "") {
+                println(prompt)
+            }
+            return readLine()
         }
         private fun interactivePrompt(pt: PromptType){
             println("Unread messages:\n${consumeUnread().joinToString("\n")}")
             val (cs, cv) = gameConstraints()
-            val cprompt = if(StaticRules.wildValues.contains(cv)){
+            val reqPrompt = if(StaticRules.wildValues.contains(cv)){
                 "($cs)"
             }else if(cv == null){
                 ""
@@ -457,31 +475,38 @@ class Eights {
                     // is on the stack.
                     "Select a ${pt.toString().lowercase()}"
                 }else{
-                    require(cprompt != ""){
-                        "Unable to build constraints prompt"
+                    require(reqPrompt != ""){
+                        "Unable to build requirements prompt"
                     }
                     "Select a ${pt.toString().lowercase()}" +
-                            " $cprompt " +
+                            " $reqPrompt " +
                             "or draw"
                 }
 
             println("Your cards: ${showHand()}")
             println("Valid plays: ${validCards()}")
-            var response = promptInput(prompt).lowercase()
+            var response = promptInput(prompt)?.lowercase()
             require(game != null){
                 "Game must be registered before player input can be accepted."
             }
-            while(response != ""){
+            while(response != null){
                 val words = response.split(" ")
                 require(words.isNotEmpty()){
                     "Response is not empty but split returned zero segments"
                 }
                 val expectedName = pt.toString().lowercase()
+                val genericHelp = "Type 'help show' for instructions on using the 'show' command.\n" +
+                        "Type 'help disable' for information on disabling warnings.\n" +
+                        "You can also forfeit using 'exit' or 'forfeit'.\n" +
+                        "Otherwise, select a $expectedName to continue.\n"+
+                        "When playing a wild card (for example, 'eight of spades'), you can "+
+                        "specify the suit in parentheses afterwards "+
+                        "(such as 'eight of spades (diamonds)')."
                 when(words.first()){
                     "help" -> {
                         when (words.getOrNull(1)) {
                             "show" -> println(
-                                "Commands: 'show hand', 'show plays', 'show game', 'show players'.\n" +
+                                "Commands:\n" +
                                 "'show hand' will show your hand.\n" +
                                 "'show cards' will also show your hand.\n" +
                                 "'show plays' will show your hand filtered by valid plays this round.\n" +
@@ -502,20 +527,16 @@ class Eights {
                             )
                             "exit" -> println(
                                 "Immediately ends the game."
-                            )
+                            )/*
                             "debug" -> println(
                                 "debug functions are: debug.constraints"
-                            )
-                            else -> println("Type 'help show' for instructions on using the 'show' command.\n" +
-                            "Type 'help disable' for information on disabling warnings.\n" +
-                            "Otherwise, select a $expectedName to continue.\n"+
-                            "When playing a wild card (for example, 'eight of spades'), you can "+
-                            "specify the suit in parentheses afterwards "+
-                            "(such as 'eight of spades (diamonds)').")
+                            )*/
+                            else -> println(genericHelp)
                         }
                     }
                     "show" -> {
                         when (words.getOrNull(1)){
+                            "help" -> println(genericHelp)
                             "hand" -> println("Your hand: ${showHand()}")
                             "cards" -> println("Your hand: ${showHand()}")
                             "plays" -> {
@@ -560,12 +581,15 @@ class Eights {
                             }
                             else -> println("Only warnings can be enabled.")
                         }
-                    }
+                    }/*
                     "debug.constraints" -> {
                         val (s,v) = gameConstraints()
                         println("Game constraints are: Suit: $s. Value: $v.")
-                    }
+                    }*/
                     "exit" -> {
+                        throw Forfeited("$name quit.")
+                    }
+                    "forfeit" -> {
                         throw Forfeited("$name quit.")
                     }
                     else -> {
@@ -574,6 +598,7 @@ class Eights {
                             if(s != null){
                                 if(v != null){
                                     val c = findCard(s, v)
+                                    val cardName = CardsCompanion.cardName(s, v)
                                     if(c != null) {
                                         cardToPlay = c
                                         // Check for declared suit as well here
@@ -584,7 +609,7 @@ class Eights {
                                         willDraw = false
                                         return
                                     }else{
-                                        println("Card by that description ($v of $s) is not found in hand.")
+                                        println("Card by that description ($cardName) is not found in hand.")
                                     }
                                 }else{
                                     println("Input did not describe a valid card")
@@ -607,13 +632,33 @@ class Eights {
                 }
                 response = promptInput()
             }
+            throw Forfeited("EOF while reading player input.")
         }
+
+        fun warn(prompt: String) =
+            if(!warningsDisabled){
+                promptInput(prompt).let{
+                    if(it == "disable warnings"){
+                        warningsDisabled = true
+                        "Y"
+                    }else{
+                        it
+                    }
+                }
+            }else{
+                "Y"
+            }
+
         //Overrides from Player
 
         override fun selectCard(lastCard: Card, lastSuit: Suit, lastValue: Value): Card? {
             interactivePrompt(PromptType.CARD)
+            val c = cardToPlay
             if(willDraw){ return null }
-            require(cardToPlay != null){
+            if(StaticRules.wildValues.contains(cardToPlay?.value)) {
+                if (suitToPlay == null) declareSuit()
+            }
+            require(c != null){
                 "Prompted for a card but couldn't find one in user input."
             }
             return cardToPlay
@@ -621,11 +666,20 @@ class Eights {
 
         override fun declareSuit(): Suit {
             var s = suitToPlay
-            if(s != null){
-                return s
+            if(s == null){
+                interactivePrompt(PromptType.SUIT)
+                s = suitToPlay
             }
-            interactivePrompt(PromptType.SUIT)
-            s = suitToPlay
+            while(!CardsCompanion.normalSuits.contains(s) and !warningsDisabled){
+                if(warn(jokerWarning) == "Y"){
+                    break
+                }else{
+                    println("Selection cancelled.")
+                    interactivePrompt(PromptType.SUIT)
+                    s = suitToPlay
+                }
+            }
+            // s = suitToPlay
             require(s != null){
                 "Prompted for a suit but couldn't find one in user input."
             }
@@ -655,10 +709,10 @@ class Eights {
                 return null
             }
             while(!validCards().contains(c) and !warningsDisabled){
-                    val response = promptInput("Are you sure? This does not appear to be a valid move. [Y/N]")
-                    if(response == "Y"){
+                    if(warn(cardWarning) == "Y"){
                         break
                     }else {
+                        println("Selection cancelled.")
                         c = selectCard(lastCard, lastSuit, lastValue)
                     }
             }
@@ -668,11 +722,15 @@ class Eights {
             require(c != null){
                 "Player did not decide to draw, but card selected is still null?"
             }
+            val s = if(StaticRules.wildValues.contains(c.value)){
+                declareSuit()
+            }else{
+                c.suit
+            }
             require(searchAndRemove(c) != null){
                 "Couldn't remove the selected card from my hand"
             }
             return if(StaticRules.wildValues.contains(c.value)){
-                val s = declareSuit()
                 Attempt(c, s)
             }else{
                 Attempt(c, null)
@@ -823,9 +881,22 @@ class Eights {
             // ARBITRARY RULES DECISION: If the first card is a joker,
             // Rather than redealing, the first player declares its suit.
             if(StaticRules.wildValues.contains(firstPlay.value)){
-                lastSuit = getCPlayer().declareFirstSuit()
+                val pSuit = getCPlayer().declareFirstSuit()
+                // Players cannot declare joker suits.
+                lastSuit = if(!CardsCompanion.normalSuits.contains(pSuit)){
+                    val ss = CardsCompanion.normalSuits.randomOrNull()
+                    require(ss != null){
+                        "There are no normal suits in our card engine?"
+                    }
+                    detailedHistory.add(
+                        "${getCPlayer().name} chose invalid suit for starting card ($pSuit). $ss has been chosen instead."
+                    )
+                    ss
+                }else{
+                    pSuit
+                }
                 lastValue = firstPlay.value
-                detailedHistory.add("${getCPlayer().name} chose suit for joker: $lastSuit.")
+                detailedHistory.add("${getCPlayer().name} chose suit for starting card: $lastSuit.")
             }else{
                 lastSuit = firstPlay.suit
                 lastValue = firstPlay.value
@@ -860,9 +931,45 @@ class Eights {
             return null
         }
 
-        fun removeLoser(p: Player){
+        /**
+         * Returns true if the conditions were met for the last player to be removed.
+         * Returns false if there were any number of players other than one.
+         */
+        fun removeLastPlayer() {
+            require(players.isNotEmpty()){
+                "Can't remove players from an empty list"
+            }
+            require(players.size == 1){
+                "Too many players left to declare a last player"
+            }
+            val p = players.first()
+            val fate: String = if(losers.isEmpty()){
+            "lost"
+            }else{
+            "won"
+            }
+            detailedHistory.add("The last remaining player (${p.name}) has $fate. The game will end.")
+            detailedHistory.add("Shuffling ${p.name}'s cards into the deck.")
+            deck.addAll(p.hand)
+            p.hand.clear()
+            deck.shuffle()
+            cPlayerIndex = -1
+            players.remove(p)
+            if(fate == "won"){
+                winners.add(p)
+                players.remove(p)
+            }else{
+                players.remove(p)
+                losers.add(p)
+            }
+        }
+        // TODO: Prevent players from forcing a total loss by all agreeing to forfeit (the last remaining player should be the winner)
+        /**
+         * Remove a player who has lost, such as by forfeiting.
+         */
+        fun removeForfeit(p: Player){
             detailedHistory.add(
-                "${p.name} has lost the game."
+                "${p.name} has forfeited."
             )
             if(p.hand.isNotEmpty()){
                 detailedHistory.add(
@@ -874,15 +981,17 @@ class Eights {
             }
             val np = if(getCPlayer() == p){
                 nextValidPlayer()
-            }else{
+            }else if(players.size > 1){
                 getCPlayer()
+            }else{
+                null
             }
             losers.add(p)
             require(players.remove(p)){
                 "Couldn't remove ${p.name} from players?"
             }
             cPlayerIndex = if((np == null) || !players.contains(np)){
-                detailedHistory.add("The last remaining player has lost. The game is over.")
+                detailedHistory.add("The last remaining player has lost. The game will end.")
                 -1
             }else{
                 players.indexOf(np)
@@ -900,12 +1009,11 @@ class Eights {
             // np should be a player who is not in danger of being removed here.
             val cp = getCPlayer()
             val np = nextValidPlayer()
-            var advance = false
             // Find winners first
             // The call to toList() is because we can't alter players.filter
             // (which is backed by players) while iterating over it.
-            fun winners() = players.filter{it.handSize() == 0}.toList()
-            winners().forEach{p ->
+            val normalWinners = players.filter{it.handSize() == 0}.toList()
+            fun removeOneWinner(p: Player): Boolean {
                 // Removing an element shifts all subsequent elements to the left
                 // The only reason we need to care about the index is if
                 // we're removing the player who occurs last in the list.
@@ -913,45 +1021,56 @@ class Eights {
                 detailedHistory.add(
                     "${p.name} has won the game and will be removed."
                 )
+                detailedHistory.add(
+                    "Shuffling ${p.name}'s cards into the deck."
+                )
+                deck.addAll(p.hand)
+                p.hand.clear()
+                deck.shuffle()
                 winners.add(p)
                 players.remove(p)
-                if(p == cp){
-                    advance = true
+                if(players.isEmpty()){
+                    cPlayerIndex = -1
+                }
+                return p == cp
+            }
+            var willAdvance = normalWinners.map(::removeOneWinner).contains(true)
+            // Handle the last remaining player here.
+            if(players.size == 1){
+                removeLastPlayer()
+                // No need to advance turn if the last player was removed.
+                willAdvance = false
+            }
+            if(willAdvance and players.isNotEmpty()){
+                require(players.contains(np)){
+                "nextValidPlayer returned the identity of a player who had zero cards (removed with winners)" +
+                        "or who no longer exists."
+                }
+                val pi = players.indexOf(np)
+                require(pi > -1){
+                    "Next valid player was not found despite the player having existed " +
+                    "for the purpose of contains()."
+                }
+                if(willAdvance){
+                    cPlayerIndex = players.indexOf(np)
+                }else {
+                    cPlayerIndex
                 }
             }
-            when(players.size) {
-                0 -> {
-                    detailedHistory.add(
-                        "All players have won. The game will end."
-                    )
-                    cPlayerIndex = -1
-                    // The current player must have been removed for there to be zero players.
-                    return true
-                }
-                1 -> {
-                    val p = players.first()
-                    // "last remaining player has lost" is already
-                    // added to history in removeLoser
-                    removeLoser(p)
-                    // There can only be the "current player" here, so return true.
-                    return true
-                }
-                else -> {
-                    require(players.contains(np)){
-                        "nextValidPlayer returned the identity of a player who no longer exists."
-                    }
-                    val pi = players.indexOf(np)
-                    require(!advance || (pi > -1)){
-                        "Next valid player was not found despite the player having existed " +
-                        "for the purpose of contains()."
-                    }
-                    cPlayerIndex = if(advance){
-                        players.indexOf(np)
-                    }else{
-                        cPlayerIndex
-                    }
-                    return advance
-                }
+            require(players.size != 1){
+                "One player remains even after supposedly removing last remaining player."
+            }
+            return if(players.isEmpty()) {
+                detailedHistory.add(
+                    "All players have won. The game will end."
+                )
+                cPlayerIndex = -1
+                // The current player must have been removed for there to be zero players.
+                true
+            }else{
+                // do not set cPlayerIndex here, because this was handled
+                // in the if(willAdvance) section above.
+                willAdvance
             }
         }
 
@@ -984,7 +1103,10 @@ class Eights {
          * a penalty card (in another function).
          */
         fun validateAttempt(a: Attempt) = (
-                StaticRules.wildValues.contains(a.value)
+                (
+                        (StaticRules.wildValues.contains(a.value)
+                        and CardsCompanion.normalSuits.contains(a.suit))
+                )
                 or (a.value == lastValue)
                 or (a.suit == lastSuit)
         )
@@ -1003,8 +1125,13 @@ class Eights {
                 lastSuit = a.suit
                 lastValue = a.value
                 history.addFirst(a.card)
+                val nextReq = if(StaticRules.wildValues.contains(lastValue)){
+                    "$lastSuit"
+                }else{
+                    "$lastSuit or $lastValue"
+                }
                 detailedHistory.add(
-                    "${p.name} played ${a.card}. Next card must be $lastSuit or $lastValue."
+                    "${p.name} played ${a.card}. Next card must be $nextReq."
                 )
                 when(p.handSize()){
                     0 -> {detailedHistory.add(
@@ -1047,7 +1174,7 @@ class Eights {
                 "All players have left the game."
             }
             if(players.size == 1){
-                removeLoser(players.first())
+                removeLastPlayer()
                 return
             }
             val p = getCPlayer()
@@ -1062,7 +1189,7 @@ class Eights {
                     lastValue
                 )
             }catch(e: Forfeited){
-                removeLoser(p)
+                removeForfeit(p)
                 skipped = true
                 null
             }
@@ -1095,8 +1222,7 @@ class Eights {
                 runTurn()
             }
             if(players.size == 1){
-                val p = players.first()
-                removeLoser(p)
+                removeLastPlayer()
             }
         }
         // Summary functions
@@ -1108,7 +1234,7 @@ class Eights {
                 "${it.name} (winner) (${it.handSize()} cards)"},
                 losers.joinToString("\n"){
                 "${it.name} (loser) (${it.handSize()} cards)"}
-            ).joinToString("\n")
+            ).filter{it != ""}.joinToString("\n")
 
         override fun playerNames(): List<String> =
             (players.map{it.name}
@@ -1159,7 +1285,25 @@ class Eights {
             }
         }
 
-        override fun constraintsSummary(): List<String> =
+        override fun constraintsSummary(): List<String> = if(
+            StaticRules.wildValues.contains(lastValue)
+        ){
+            listOf("Suit: $lastSuit")
+        }else {
             listOf("Suit: $lastSuit", "Value: $lastValue")
+        }
+
+        // Postgame summary
+
+        fun postgameSummary(): String = sequence {
+            yield("Turn history:")
+            yield(detailedHistory.joinToString("\n"))
+            yield("Winners (best first): ${winners.joinToString(", ") { it.name }}")
+            yield("Losers (worst last): ${losers.joinToString(", ") { it.name }}")
+            if(players.isNotEmpty()){
+                yield("Remaining players (neither winners nor losers?): ${players.joinToString(", ") { it.name }}")
+            }
+        }.joinToString("\n")
+
     }
 }

@@ -1,11 +1,13 @@
+@file:Suppress("EmptyRange")
+
 package com.sooby.cards
 
 import com.sooby.cards.eights.Eights
 
 @Suppress("unused", "FunctionName", "LocalVariableName")
 object TestFunctions {
-    private const val basicPlayers = 1
-    private const val randomPlayers = 1
+    private const val basicPlayers = 2
+    private const val randomPlayers = 0
     private const val humanPlayers = 1
     private const val shufflePlayers = true
     private fun showAllHands(g: Eights.Game): String{
@@ -18,15 +20,14 @@ object TestFunctions {
         "\n[GAME SUMMARY]\n" +
         "[EVENT LOG]\n${g.detailedHistory.joinToString("\n")}\n" +
         "[GAME STATE]\n${g.nonPlayerSummary()}\n" +
-        "[NEXT 20 PLAYERS]: " +
-        g.predictNextPlayers(20).let{
-            if(it.isNotEmpty()){
-                it.joinToString(", ")
-            }else{
-                "None"
-            }
-        } +
-        "[NEXT 20 PLAYERS]\n${g.predictNextPlayers(20)}\n" +
+        "[NEXT 20 PLAYERS]:\n" +
+            g.predictNextPlayers(20).let{
+                if(it.isNotEmpty()){
+                    it.joinToString(", ")
+                }else{
+                    "None"
+                }
+            } + "\n" +
         "[PLAYERS SUMMARY]\n${g.playersSummary()}\n" +
         showAllHands(g)
     private fun buildPlayers(): List<Eights.Player> =
@@ -64,34 +65,28 @@ object TestFunctions {
     }
     fun CompleteGame() {
         val g = newGame().also {
-
-            try{
-                it.runAll()
-            }catch(e: Exception){
-                println(e)
-            }
-
-            //it.runAll()
+            it.runAll()
         }
         println(showPostgameSummary(g))
     }
     fun TryErrors(n: Int) {
-        var error = false
         var g = newGame()
+        /*
         try {
             (0..n).forEach { _ ->
                 g.runAll()
                 g = newGame()
             }
+            println("No errors received.")
         }catch(e: Exception){
             println(e)
-            error = true
-        }
-        if(!error){
-            println("No errors received.")
-        }else{
             println(showPostgameSummary(g))
+        }*/
+        (0..n).forEach {_ ->
+            g.runAll()
+            g = newGame()
         }
+        println("No errors received.")
     }
     fun JokerStarter() {
         for(i in (0..100)){

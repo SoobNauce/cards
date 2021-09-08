@@ -1,235 +1,169 @@
+C:\Users\tvile\.jdks\azul-15.0.3\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\lib\idea_rt.jar=56445:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\tvile\Dropbox\Programming\kotlin\com.sooby.cards\build\classes\kotlin\main;C:\Users\tvile\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.5.30\d68efdea04955974ac1020f8f66ef8176bfbce1f\kotlin-stdlib-1.5.30.jar;C:\Users\tvile\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\tvile\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.5.30\649ffab7767038323fec0cc41e2d7b0a8f65a378\kotlin-stdlib-common-1.5.30.jar com.sooby.cards.MainKt
+
 [GAME SUMMARY]
 [EVENT LOG]
 Game began.
 Starting hand (5 cards) dealt to players.
 Dealt 5 cards to Basic AI 1.
-Dealt 5 cards to Random AI 1.
+Dealt 5 cards to Basic AI 2.
 Dealt 5 cards to Random AI 2.
-Dealt 5 cards to Random AI 3.
-Dealt 5 cards to Random AI 4.
-Dealt 5 cards to Random AI 5.
-First card played from deck (FOUR OF SPADES).
+Dealt 5 cards to Random AI 1.
+First card played from deck (SIX OF HEARTS).
+Turn 1 began.
+Basic AI 1 played TWO OF HEARTS. Next card must be HEARTS or TWO.
+Turn 2 began.
+Basic AI 2 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
+Turn 3 began.
+Random AI 2 played TEN OF HEARTS. Next card must be HEARTS or TEN.
+Turn 4 began.
+Random AI 1 played EIGHT OF DIAMONDS. Next card must be DIAMONDS.
+Turn 5 began.
+Basic AI 1 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Turn 6 began.
+Basic AI 2 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
+Turn 7 began.
+Random AI 2 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
+Turn 8 began.
+Random AI 1 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
+Turn 9 began.
+Basic AI 1 played BLACK JOKER. Next card must be HEARTS.
+Turn 10 began.
+Basic AI 2 played EIGHT OF CLUBS. Next card must be CLUBS.
+Turn 11 began.
+Random AI 2 has chosen to draw.
+Card dealt to Random AI 2.
+Turn 12 began.
+Random AI 1 played NINE OF CLUBS. Next card must be CLUBS or NINE.
+Turn 13 began.
 Basic AI 1 has chosen to draw.
 Card dealt to Basic AI 1.
+Turn 14 began.
+Basic AI 2 played ACE OF CLUBS. Next card must be CLUBS or ACE.
+Basic AI 2 has one card remaining.
+Turn 15 began.
+Basic AI 1 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Turn 16 began.
+Basic AI 2 has chosen to draw.
+Card dealt to Basic AI 2.
+Turn 17 began.
+Random AI 2 played KING OF HEARTS. Next card must be HEARTS or KING.
+Turn 18 began.
 Random AI 1 has chosen to draw.
 Card dealt to Random AI 1.
-Random AI 2 played EIGHT OF DIAMONDS. Next card must be SPADES or EIGHT.
-Random AI 3 played BLACK JOKER. Next card must be HEARTS or JOKER.
-Random AI 4 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-Random AI 5 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-Basic AI 1 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-Random AI 1 played KING OF CLUBS. Next card must be CLUBS or KING.
-Random AI 2 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-Random AI 3 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-Random AI 4 played FIVE OF DIAMONDS. Next card must be DIAMONDS or FIVE.
-Random AI 5 played EIGHT OF HEARTS. Next card must be SPADES or EIGHT.
+Turn 19 began.
 Basic AI 1 has chosen to draw.
 Card dealt to Basic AI 1.
+Turn 20 began.
+Basic AI 2 has chosen to draw.
+Card dealt to Basic AI 2.
+Turn 21 began.
+Random AI 2 has chosen to draw.
+Card dealt to Random AI 2.
+Turn 22 began.
 Random AI 1 has chosen to draw.
 Card dealt to Random AI 1.
-Random AI 2 played KING OF SPADES. Next card must be SPADES or KING.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 4 has chosen to draw.
-Card dealt to Random AI 4.
-Random AI 5 played FOUR OF SPADES. Next card must be SPADES or FOUR.
-Basic AI 1 played TWO OF SPADES. Next card must be SPADES or TWO.
-Random AI 1 played TWO OF HEARTS. Next card must be HEARTS or TWO.
-Random AI 2 played ACE OF HEARTS. Next card must be HEARTS or ACE.
+Turn 23 began.
+Basic AI 1 has chosen to draw.
+Card dealt to Basic AI 1.
+Turn 24 began.
+Basic AI 2 has chosen to draw.
+Card dealt to Basic AI 2.
+Turn 25 began.
+Random AI 2 has chosen to draw.
+Card dealt to Random AI 2.
+Turn 26 began.
+Random AI 1 has chosen to draw.
+Card dealt to Random AI 1.
+Turn 27 began.
+Basic AI 1 has chosen to draw.
+Card dealt to Basic AI 1.
+Turn 28 began.
+Basic AI 2 played NINE OF HEARTS. Next card must be HEARTS or NINE.
+Turn 29 began.
+Random AI 2 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
+Turn 30 began.
+Random AI 1 has chosen to draw.
+Card dealt to Random AI 1.
+Turn 31 began.
+Basic AI 1 has chosen to draw.
+Card dealt to Basic AI 1.
+Turn 32 began.
+Basic AI 2 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
+Turn 33 began.
+Random AI 2 played FOUR OF SPADES. Next card must be SPADES or FOUR.
+Turn 34 began.
+Random AI 1 played KING OF SPADES. Next card must be SPADES or KING.
+Turn 35 began.
+Basic AI 1 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
+Turn 36 began.
+Random AI 2 played JACK OF SPADES. Next card must be SPADES or JACK.
+Turn 37 began.
+Random AI 1 played SEVEN OF SPADES. Next card must be SPADES or SEVEN.
+Turn 38 began.
+Basic AI 1 played NINE OF SPADES. Next card must be SPADES or NINE.
+Turn 39 began.
+Basic AI 2 played SIX OF SPADES. Next card must be SPADES or SIX.
+Basic AI 2 has one card remaining.
+Turn 40 began.
+Random AI 2 has chosen to draw.
+Card dealt to Random AI 2.
+Turn 41 began.
+Random AI 1 played FIVE OF SPADES. Next card must be SPADES or FIVE.
+Turn 42 began.
+Basic AI 1 played RED JOKER. Next card must be DIAMONDS.
+Turn 43 began.
+Basic AI 2 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Basic AI 2 has zero cards and will be declared a winner.
+Basic AI 2 has won the game and will be removed.
+Turn 44 began.
+Random AI 2 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
+Turn 45 began.
+Basic AI 1 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
+Turn 46 began.
+Random AI 1 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
+Turn 47 began.
+Basic AI 1 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
+Basic AI 1 has one card remaining.
+Turn 48 began.
+Random AI 2 played SIX OF CLUBS. Next card must be CLUBS or SIX.
 Random AI 2 has one card remaining.
-Random AI 1 played SEVEN OF HEARTS. Next card must be HEARTS or SEVEN.
-Basic AI 1 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 4 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-Random AI 3 played NINE OF CLUBS. Next card must be CLUBS or NINE.
-Random AI 2 has chosen to draw.
-Card dealt to Random AI 2.
-Random AI 1 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-Random AI 2 has chosen to draw.
-Card dealt to Random AI 2.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 4 has chosen to draw.
-Card dealt to Random AI 4.
-Random AI 5 played ACE OF CLUBS. Next card must be CLUBS or ACE.
-Random AI 4 played EIGHT OF CLUBS. Next card must be HEARTS or EIGHT.
-Random AI 3 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-Random AI 2 has chosen to draw.
-Card dealt to Random AI 2.
-Random AI 1 played TEN OF HEARTS. Next card must be HEARTS or TEN.
-Basic AI 1 played TEN OF CLUBS. Next card must be CLUBS or TEN.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 4 has chosen to draw.
-Card dealt to Random AI 4.
-Random AI 3 played JACK OF CLUBS. Next card must be CLUBS or JACK.
-Random AI 2 played EIGHT OF SPADES. Next card must be DIAMONDS or EIGHT.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
+Turn 49 began.
 Basic AI 1 has chosen to draw.
 Card dealt to Basic AI 1.
-Random AI 5 played SEVEN OF DIAMONDS. Next card must be DIAMONDS or SEVEN.
-Random AI 4 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 2 played TEN OF DIAMONDS. Next card must be DIAMONDS or TEN.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Basic AI 1 has chosen to draw.
-Card dealt to Basic AI 1.
-Random AI 5 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-Random AI 5 has one card remaining.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 2 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-Random AI 2 has one card remaining.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Basic AI 1 played SIX OF CLUBS. Next card must be CLUBS or SIX.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 4 has chosen to draw.
-Card dealt to Random AI 4.
-Random AI 3 played SIX OF DIAMONDS. Next card must be DIAMONDS or SIX.
-Random AI 2 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
+Turn 50 began.
+Random AI 1 played TWO OF CLUBS. Next card must be CLUBS or TWO.
+Random AI 1 has one card remaining.
+Turn 51 began.
+Random AI 2 played JACK OF CLUBS. Next card must be CLUBS or JACK.
 Random AI 2 has zero cards and will be declared a winner.
 Random AI 2 has won the game and will be removed.
-Random AI 1 played NINE OF DIAMONDS. Next card must be DIAMONDS or NINE.
+Turn 52 began.
 Basic AI 1 has chosen to draw.
 Card dealt to Basic AI 1.
-Random AI 5 played KING OF DIAMONDS. Next card must be DIAMONDS or KING.
-Random AI 5 has one card remaining.
-Random AI 4 played QUEEN OF DIAMONDS. Next card must be DIAMONDS or QUEEN.
-Random AI 1 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 4 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Basic AI 1 played QUEEN OF SPADES. Next card must be SPADES or QUEEN.
-Random AI 4 played ACE OF SPADES. Next card must be SPADES or ACE.
-Random AI 4 has one card remaining.
-Random AI 5 played TWO OF SPADES. Next card must be SPADES or TWO.
-Random AI 5 has one card remaining.
-Basic AI 1 played TEN OF SPADES. Next card must be SPADES or TEN.
-Random AI 1 played JACK OF SPADES. Next card must be SPADES or JACK.
-Random AI 3 played FIVE OF SPADES. Next card must be SPADES or FIVE.
-Random AI 4 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-Random AI 4 has zero cards and will be declared a winner.
-Random AI 4 has won the game and will be removed.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 played THREE OF HEARTS. Next card must be HEARTS or THREE.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Random AI 3 played THREE OF SPADES. Next card must be SPADES or THREE.
-Random AI 3 has one card remaining.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 has chosen to draw.
-Card dealt to Basic AI 1.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 played THREE OF SPADES. Next card must be SPADES or THREE.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 played EIGHT OF SPADES. Next card must be DIAMONDS or EIGHT.
-Basic AI 1 has chosen to draw.
-Card dealt to Basic AI 1.
-Random AI 1 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-Random AI 3 played JACK OF DIAMONDS. Next card must be DIAMONDS or JACK.
-Random AI 5 played ACE OF DIAMONDS. Next card must be DIAMONDS or ACE.
-Random AI 3 played ACE OF SPADES. Next card must be SPADES or ACE.
-Random AI 3 has one card remaining.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 has chosen to draw.
-Card dealt to Basic AI 1.
-Random AI 1 has chosen to draw.
-Card dealt to Random AI 1.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 played KING OF SPADES. Next card must be SPADES or KING.
-Basic AI 1 played KING OF CLUBS. Next card must be CLUBS or KING.
-Random AI 1 played SEVEN OF CLUBS. Next card must be CLUBS or SEVEN.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 played THREE OF CLUBS. Next card must be CLUBS or THREE.
-Random AI 1 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 played TWO OF DIAMONDS. Next card must be DIAMONDS or TWO.
-Basic AI 1 has chosen to draw.
-Card dealt to Basic AI 1.
-Random AI 1 played RED JOKER. Next card must be HEARTS or JOKER.
-Random AI 3 played NINE OF HEARTS. Next card must be HEARTS or NINE.
-Random AI 5 played JACK OF HEARTS. Next card must be HEARTS or JACK.
-Random AI 5 has one card remaining.
-Basic AI 1 played SIX OF HEARTS. Next card must be HEARTS or SIX.
-Random AI 1 played FOUR OF HEARTS. Next card must be HEARTS or FOUR.
-Random AI 3 played FIVE OF HEARTS. Next card must be HEARTS or FIVE.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Basic AI 1 played ACE OF HEARTS. Next card must be HEARTS or ACE.
-Basic AI 1 has one card remaining.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 3 played QUEEN OF HEARTS. Next card must be HEARTS or QUEEN.
-Random AI 3 has one card remaining.
-Basic AI 1 played QUEEN OF CLUBS. Next card must be CLUBS or QUEEN.
-Basic AI 1 has zero cards and will be declared a winner.
-Basic AI 1 has won the game and will be removed.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 1 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-Random AI 1 has one card remaining.
-Random AI 5 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 1 played FOUR OF CLUBS. Next card must be CLUBS or FOUR.
+Turn 53 began.
+Random AI 1 played THREE OF CLUBS. Next card must be CLUBS or THREE.
 Random AI 1 has zero cards and will be declared a winner.
 Random AI 1 has won the game and will be removed.
-Random AI 5 played FIVE OF CLUBS. Next card must be CLUBS or FIVE.
-Random AI 5 has one card remaining.
-Random AI 3 has chosen to draw.
-Card dealt to Random AI 3.
-Random AI 5 has chosen to draw.
-Card dealt to Random AI 5.
-Random AI 3 played TWO OF CLUBS. Next card must be CLUBS or TWO.
-Random AI 5 played EIGHT OF DIAMONDS. Next card must be DIAMONDS or EIGHT.
-Random AI 5 has one card remaining.
-Random AI 3 played THREE OF DIAMONDS. Next card must be DIAMONDS or THREE.
-Random AI 5 played FOUR OF DIAMONDS. Next card must be DIAMONDS or FOUR.
-Random AI 5 has zero cards and will be declared a winner.
-Random AI 5 has won the game and will be removed.
-Random AI 3 has lost. The game will end.
+Basic AI 1 has lost the game.
+Shuffling Basic AI 1's cards into the deck.
+The last remaining player has lost. The game is over.
+All players have won. The game will end.
 [GAME STATE]
-Stack (79 cards): Top card is FOUR OF DIAMONDS.
-Next card must match FOUR or DIAMONDS.
-27 cards in deck.
-[NEXT 20 PLAYERS]
-[]
+Stack (36 cards): Top card is THREE OF CLUBS.
+Next card must match THREE or CLUBS.
+18 cards in deck.
+[NEXT 20 PLAYERS]:
+None
 [PLAYERS SUMMARY]
 
+Basic AI 2 (winner) (0 cards)
 Random AI 2 (winner) (0 cards)
-Random AI 4 (winner) (0 cards)
-Basic AI 1 (winner) (0 cards)
 Random AI 1 (winner) (0 cards)
-Random AI 5 (winner) (0 cards)
-Random AI 3 (loser) (2 cards)
+Basic AI 1 (loser) (0 cards)
 [HANDS]
+Basic AI 2: 
 Random AI 2: 
-Random AI 4: 
-Basic AI 1: 
 Random AI 1: 
-Random AI 5: 
-Random AI 3: KING OF HEARTS, and NINE OF SPADES
+Basic AI 1: 
+
+Process finished with exit code 0

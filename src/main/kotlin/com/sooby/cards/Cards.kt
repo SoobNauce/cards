@@ -20,15 +20,7 @@ class Cards {
     }
     class Card(val suit: Suit, val value: Value){
         override fun toString(): String =
-            if(this.value == Value.JOKER){
-                when(this.suit.color){
-                    Color.BLACK -> "BLACK JOKER"
-                    Color.RED -> "RED JOKER"
-                    //else -> this.suit.color.toString() + " JOKER"
-                }
-            }else{
-                "${this.value} OF ${this.suit}"
-            }
+            cardName(this.suit, this.value)
     }
     // Card to card comparison is not defined in Cards but is rather defined within each game.
     companion object {
@@ -38,6 +30,16 @@ class Cards {
         val normalValues = Value.values().filter {
             it != Value.JOKER
         }
+
+        fun cardName(suit: Suit, value: Value) =
+            if(value == Value.JOKER){
+                when(suit.color){
+                    Color.BLACK -> "BLACK JOKER"
+                    Color.RED -> "RED JOKER"
+                }
+            }else{
+                "$value OF $suit"
+            }
 
         fun jokers(): List<Card> = listOf(
             Card(Suit.BLACK_JOKER, Value.JOKER),
