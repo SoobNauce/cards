@@ -1,2 +1,3 @@
 rootProject.name = 'com.sooby.cards'
+include 'eights'
 
